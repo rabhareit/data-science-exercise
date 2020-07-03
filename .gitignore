@@ -1,0 +1,13 @@
+# For Mac Users.
+.DS_Store
+
+# For Jupyter users.
+.ipynb_checkpoints
+
+# For VSCode users.
+.vscode
+*.code-workspace
+
+# directory
+data
+db
