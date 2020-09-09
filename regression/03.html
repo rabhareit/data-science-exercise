@@ -13096,7 +13096,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[109]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span>
@@ -13110,7 +13110,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[110]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">listings_orig</span> <span class="o">=</span> <span class="n">pandas</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;../data/listings.csv&#39;</span><span class="p">)</span>
@@ -13123,7 +13123,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[111]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">features</span> <span class="o">=</span> <span class="n">pandas</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;../data/features.tsv&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)</span>
@@ -13137,7 +13137,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[112]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">listings_df</span> <span class="o">=</span> <span class="n">listings_orig</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="n">unused_features</span><span class="o">.</span><span class="n">feature</span><span class="p">)</span>
@@ -13150,7 +13150,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[113]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">listings_df</span>
@@ -13166,7 +13166,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[7]:</div>
+    <div class="prompt output_prompt">Out[113]:</div>
 
 
 
@@ -13515,7 +13515,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[114]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">listings_df_v2</span> <span class="o">=</span>  <span class="n">listings_df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -13528,7 +13528,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[115]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">format_price</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;$&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span> <span class="k">if</span> <span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="ow">is</span> <span class="nb">str</span> <span class="k">else</span> <span class="n">x</span>
@@ -13583,7 +13583,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[116]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">listings_df_v2</span>
@@ -13599,7 +13599,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[10]:</div>
+    <div class="prompt output_prompt">Out[116]:</div>
 
 
 
@@ -13932,7 +13932,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[117]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">statistics</span> <span class="o">=</span> <span class="n">listings_df_v2</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
@@ -13974,7 +13974,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[118]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plot</span>
@@ -14009,11 +14009,11 @@ div#notebook {
   <rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2020-08-26T00:34:57.867852</dc:date>
+    <dc:date>2020-09-02T09:07:42.146982</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
-      <dc:title>Matplotlib v3.3.0, https://matplotlib.org/</dc:title>
+      <dc:title>Matplotlib v3.3.1, https://matplotlib.org/</dc:title>
      </cc:Agent>
     </dc:creator>
    </cc:Work>
@@ -14029,7 +14029,7 @@ L 388.0125 261.19625
 L 388.0125 0 
 L 0 0 
 z
-"/>
+" style="fill:none;"/>
   </g>
   <g id="axes_1">
    <g id="patch_2">
@@ -14041,7 +14041,7 @@ z
 "/>
    </g>
    <g id="patch_3">
-    <path clip-path="url(#pd5d90b8bb7)" d="M 61.230682 224.64 
+    <path clip-path="url(#p4ca42cd4dd)" d="M 61.230682 224.64 
 L 91.667045 224.64 
 L 91.667045 17.554286 
 L 61.230682 17.554286 
@@ -14049,7 +14049,7 @@ z
 " style="fill:#8dd3c7;"/>
    </g>
    <g id="patch_4">
-    <path clip-path="url(#pd5d90b8bb7)" d="M 91.667045 224.64 
+    <path clip-path="url(#p4ca42cd4dd)" d="M 91.667045 224.64 
 L 122.103409 224.64 
 L 122.103409 223.263348 
 L 91.667045 223.263348 
@@ -14057,7 +14057,7 @@ z
 " style="fill:#8dd3c7;"/>
    </g>
    <g id="patch_5">
-    <path clip-path="url(#pd5d90b8bb7)" d="M 122.103409 224.64 
+    <path clip-path="url(#p4ca42cd4dd)" d="M 122.103409 224.64 
 L 152.539773 224.64 
 L 152.539773 223.47845 
 L 122.103409 223.47845 
@@ -14065,7 +14065,7 @@ z
 " style="fill:#8dd3c7;"/>
    </g>
    <g id="patch_6">
-    <path clip-path="url(#pd5d90b8bb7)" d="M 152.539773 224.64 
+    <path clip-path="url(#p4ca42cd4dd)" d="M 152.539773 224.64 
 L 182.976136 224.64 
 L 182.976136 224.59698 
 L 152.539773 224.59698 
@@ -14073,7 +14073,7 @@ z
 " style="fill:#8dd3c7;"/>
    </g>
    <g id="patch_7">
-    <path clip-path="url(#pd5d90b8bb7)" d="M 182.976136 224.64 
+    <path clip-path="url(#p4ca42cd4dd)" d="M 182.976136 224.64 
 L 213.4125 224.64 
 L 213.4125 224.553959 
 L 182.976136 224.553959 
@@ -14081,7 +14081,7 @@ z
 " style="fill:#8dd3c7;"/>
    </g>
    <g id="patch_8">
-    <path clip-path="url(#pd5d90b8bb7)" d="M 213.4125 224.64 
+    <path clip-path="url(#p4ca42cd4dd)" d="M 213.4125 224.64 
 L 243.848864 224.64 
 L 243.848864 224.64 
 L 213.4125 224.64 
@@ -14089,7 +14089,7 @@ z
 " style="fill:#8dd3c7;"/>
    </g>
    <g id="patch_9">
-    <path clip-path="url(#pd5d90b8bb7)" d="M 243.848864 224.64 
+    <path clip-path="url(#p4ca42cd4dd)" d="M 243.848864 224.64 
 L 274.285227 224.64 
 L 274.285227 224.61132 
 L 243.848864 224.61132 
@@ -14097,7 +14097,7 @@ z
 " style="fill:#8dd3c7;"/>
    </g>
    <g id="patch_10">
-    <path clip-path="url(#pd5d90b8bb7)" d="M 274.285227 224.64 
+    <path clip-path="url(#p4ca42cd4dd)" d="M 274.285227 224.64 
 L 304.721591 224.64 
 L 304.721591 224.61132 
 L 274.285227 224.61132 
@@ -14105,7 +14105,7 @@ z
 " style="fill:#8dd3c7;"/>
    </g>
    <g id="patch_11">
-    <path clip-path="url(#pd5d90b8bb7)" d="M 304.721591 224.64 
+    <path clip-path="url(#p4ca42cd4dd)" d="M 304.721591 224.64 
 L 335.157955 224.64 
 L 335.157955 223.664872 
 L 304.721591 223.664872 
@@ -14113,7 +14113,7 @@ z
 " style="fill:#8dd3c7;"/>
    </g>
    <g id="patch_12">
-    <path clip-path="url(#pd5d90b8bb7)" d="M 335.157955 224.64 
+    <path clip-path="url(#p4ca42cd4dd)" d="M 335.157955 224.64 
 L 365.594318 224.64 
 L 365.594318 224.410558 
 L 335.157955 224.410558 
@@ -14126,10 +14126,10 @@ z
       <defs>
        <path d="M 0 0 
 L 0 3.5 
-" id="m8713a19dcb" style="stroke:#ffffff;stroke-width:0.8;"/>
+" id="ma23d7ee717" style="stroke:#ffffff;stroke-width:0.8;"/>
       </defs>
       <g>
-       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="61.230682" xlink:href="#m8713a19dcb" y="224.64"/>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="61.230682" xlink:href="#ma23d7ee717" y="224.64"/>
       </g>
      </g>
      <g id="text_1">
@@ -14173,7 +14173,7 @@ z
     <g id="xtick_2">
      <g id="line2d_2">
       <g>
-       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="118.33209" xlink:href="#m8713a19dcb" y="224.64"/>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="118.33209" xlink:href="#ma23d7ee717" y="224.64"/>
       </g>
      </g>
      <g id="text_2">
@@ -14214,7 +14214,7 @@ z
     <g id="xtick_3">
      <g id="line2d_3">
       <g>
-       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="175.433497" xlink:href="#m8713a19dcb" y="224.64"/>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="175.433497" xlink:href="#ma23d7ee717" y="224.64"/>
       </g>
      </g>
      <g id="text_3">
@@ -14248,7 +14248,7 @@ z
     <g id="xtick_4">
      <g id="line2d_4">
       <g>
-       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="232.534905" xlink:href="#m8713a19dcb" y="224.64"/>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="232.534905" xlink:href="#ma23d7ee717" y="224.64"/>
       </g>
      </g>
      <g id="text_4">
@@ -14295,7 +14295,7 @@ z
     <g id="xtick_5">
      <g id="line2d_5">
       <g>
-       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="289.636313" xlink:href="#m8713a19dcb" y="224.64"/>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="289.636313" xlink:href="#ma23d7ee717" y="224.64"/>
       </g>
      </g>
      <g id="text_5">
@@ -14351,7 +14351,7 @@ z
     <g id="xtick_6">
      <g id="line2d_6">
       <g>
-       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="346.73772" xlink:href="#m8713a19dcb" y="224.64"/>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="346.73772" xlink:href="#ma23d7ee717" y="224.64"/>
       </g>
      </g>
      <g id="text_6">
@@ -14419,10 +14419,10 @@ z
       <defs>
        <path d="M 0 0 
 L -3.5 0 
-" id="mfff6b2b133" style="stroke:#ffffff;stroke-width:0.8;"/>
+" id="m04683123b6" style="stroke:#ffffff;stroke-width:0.8;"/>
       </defs>
       <g>
-       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="46.0125" xlink:href="#mfff6b2b133" y="224.64"/>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="46.0125" xlink:href="#m04683123b6" y="224.64"/>
       </g>
      </g>
      <g id="text_8">
@@ -14435,7 +14435,7 @@ L -3.5 0
     <g id="ytick_2">
      <g id="line2d_8">
       <g>
-       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="46.0125" xlink:href="#mfff6b2b133" y="195.959754"/>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="46.0125" xlink:href="#m04683123b6" y="195.959754"/>
       </g>
      </g>
      <g id="text_9">
@@ -14451,7 +14451,7 @@ L -3.5 0
     <g id="ytick_3">
      <g id="line2d_9">
       <g>
-       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="46.0125" xlink:href="#mfff6b2b133" y="167.279509"/>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="46.0125" xlink:href="#m04683123b6" y="167.279509"/>
       </g>
      </g>
      <g id="text_10">
@@ -14467,7 +14467,7 @@ L -3.5 0
     <g id="ytick_4">
      <g id="line2d_10">
       <g>
-       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="46.0125" xlink:href="#mfff6b2b133" y="138.599263"/>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="46.0125" xlink:href="#m04683123b6" y="138.599263"/>
       </g>
      </g>
      <g id="text_11">
@@ -14483,7 +14483,7 @@ L -3.5 0
     <g id="ytick_5">
      <g id="line2d_11">
       <g>
-       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="46.0125" xlink:href="#mfff6b2b133" y="109.919017"/>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="46.0125" xlink:href="#m04683123b6" y="109.919017"/>
       </g>
      </g>
      <g id="text_12">
@@ -14499,7 +14499,7 @@ L -3.5 0
     <g id="ytick_6">
      <g id="line2d_12">
       <g>
-       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="46.0125" xlink:href="#mfff6b2b133" y="81.238771"/>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="46.0125" xlink:href="#m04683123b6" y="81.238771"/>
       </g>
      </g>
      <g id="text_13">
@@ -14516,7 +14516,7 @@ L -3.5 0
     <g id="ytick_7">
      <g id="line2d_13">
       <g>
-       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="46.0125" xlink:href="#mfff6b2b133" y="52.558526"/>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="46.0125" xlink:href="#m04683123b6" y="52.558526"/>
       </g>
      </g>
      <g id="text_14">
@@ -14533,7 +14533,7 @@ L -3.5 0
     <g id="ytick_8">
      <g id="line2d_14">
       <g>
-       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="46.0125" xlink:href="#mfff6b2b133" y="23.87828"/>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="46.0125" xlink:href="#m04683123b6" y="23.87828"/>
       </g>
      </g>
      <g id="text_15">
@@ -14571,7 +14571,7 @@ L 380.8125 7.2
   </g>
  </g>
  <defs>
-  <clipPath id="pd5d90b8bb7">
+  <clipPath id="p4ca42cd4dd">
    <rect height="217.44" width="334.8" x="46.0125" y="7.2"/>
   </clipPath>
  </defs>
@@ -14595,7 +14595,7 @@ L 380.8125 7.2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[119]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">listings_df_v2</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
@@ -14611,7 +14611,7 @@ L 380.8125 7.2
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[18]:</div>
+    <div class="prompt output_prompt">Out[119]:</div>
 
 
 
@@ -14755,7 +14755,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[120]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dummy_targets</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;host_response_time&quot;</span><span class="p">,</span> <span class="s2">&quot;neighbourhood_cleansed&quot;</span><span class="p">,</span>
@@ -14775,7 +14775,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[19]:</div>
+    <div class="prompt output_prompt">Out[120]:</div>
 
 
 
@@ -15190,7 +15190,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[121]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">amenities</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
@@ -15217,7 +15217,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[122]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">listings_df_v4</span>
@@ -15233,7 +15233,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[21]:</div>
+    <div class="prompt output_prompt">Out[122]:</div>
 
 
 
@@ -15267,16 +15267,16 @@ dtype: int64</pre>
       <th>bathrooms</th>
       <th>bedrooms</th>
       <th>...</th>
-      <th>Shampoo</th>
-      <th>"Roll-in shower"</th>
-      <th>"Smoke alarm"</th>
-      <th>Waterfront</th>
-      <th>Elevator</th>
-      <th>Iron</th>
-      <th>"Projector and screen"</th>
-      <th>"Indoor fireplace"</th>
-      <th>"Roll-in shower with chair"</th>
-      <th>"Building staff"</th>
+      <th>"Family/kid friendly"</th>
+      <th>"Bath towel"</th>
+      <th>Breakfast</th>
+      <th>Wifi</th>
+      <th>Crib</th>
+      <th>Dryer</th>
+      <th>"Accessible-height toilet"</th>
+      <th>"Memory foam mattress"</th>
+      <th>"Electric profiling bed"</th>
+      <th>"Cleaning before checkout"</th>
     </tr>
   </thead>
   <tbody>
@@ -15295,10 +15295,10 @@ dtype: int64</pre>
       <td>...</td>
       <td>0</td>
       <td>0</td>
-      <td>1</td>
       <td>0</td>
       <td>1</td>
       <td>0</td>
+      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -15319,8 +15319,8 @@ dtype: int64</pre>
       <td>...</td>
       <td>1</td>
       <td>0</td>
-      <td>1</td>
       <td>0</td>
+      <td>1</td>
       <td>0</td>
       <td>1</td>
       <td>0</td>
@@ -15344,9 +15344,9 @@ dtype: int64</pre>
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>1</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -15365,12 +15365,12 @@ dtype: int64</pre>
       <td>1.0</td>
       <td>0.0</td>
       <td>...</td>
-      <td>1</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -15391,10 +15391,10 @@ dtype: int64</pre>
       <td>...</td>
       <td>1</td>
       <td>0</td>
+      <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -15437,10 +15437,10 @@ dtype: int64</pre>
       <td>1.0</td>
       <td>3.0</td>
       <td>...</td>
-      <td>1</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>1</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -15461,10 +15461,10 @@ dtype: int64</pre>
       <td>1.0</td>
       <td>1.0</td>
       <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -15485,9 +15485,9 @@ dtype: int64</pre>
       <td>1.0</td>
       <td>1.0</td>
       <td>...</td>
-      <td>1</td>
       <td>0</td>
-      <td>1</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -15509,9 +15509,9 @@ dtype: int64</pre>
       <td>1.0</td>
       <td>1.0</td>
       <td>...</td>
-      <td>1</td>
       <td>0</td>
-      <td>1</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -15533,9 +15533,9 @@ dtype: int64</pre>
       <td>1.0</td>
       <td>1.0</td>
       <td>...</td>
-      <td>1</td>
       <td>0</td>
-      <td>1</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -15552,6 +15552,19 @@ dtype: int64</pre>
 
 </div>
 
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[123]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">listings_df_v4_cp</span> <span class="o">=</span> <span class="n">listings_df_v4</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+</pre></div>
+
+    </div>
 </div>
 </div>
 
@@ -15581,7 +15594,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[124]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">listings_df_v4</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -15594,7 +15607,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[125]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">listings_df_v4</span>
@@ -15610,7 +15623,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[23]:</div>
+    <div class="prompt output_prompt">Out[125]:</div>
 
 
 
@@ -15644,16 +15657,16 @@ dtype: int64</pre>
       <th>bathrooms</th>
       <th>bedrooms</th>
       <th>...</th>
-      <th>Shampoo</th>
-      <th>"Roll-in shower"</th>
-      <th>"Smoke alarm"</th>
-      <th>Waterfront</th>
-      <th>Elevator</th>
-      <th>Iron</th>
-      <th>"Projector and screen"</th>
-      <th>"Indoor fireplace"</th>
-      <th>"Roll-in shower with chair"</th>
-      <th>"Building staff"</th>
+      <th>"Family/kid friendly"</th>
+      <th>"Bath towel"</th>
+      <th>Breakfast</th>
+      <th>Wifi</th>
+      <th>Crib</th>
+      <th>Dryer</th>
+      <th>"Accessible-height toilet"</th>
+      <th>"Memory foam mattress"</th>
+      <th>"Electric profiling bed"</th>
+      <th>"Cleaning before checkout"</th>
     </tr>
   </thead>
   <tbody>
@@ -15672,8 +15685,8 @@ dtype: int64</pre>
       <td>...</td>
       <td>1</td>
       <td>0</td>
-      <td>1</td>
       <td>0</td>
+      <td>1</td>
       <td>0</td>
       <td>1</td>
       <td>0</td>
@@ -15697,9 +15710,9 @@ dtype: int64</pre>
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>1</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -15718,12 +15731,12 @@ dtype: int64</pre>
       <td>1.0</td>
       <td>0.0</td>
       <td>...</td>
-      <td>1</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -15744,10 +15757,10 @@ dtype: int64</pre>
       <td>...</td>
       <td>1</td>
       <td>0</td>
+      <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -15766,12 +15779,12 @@ dtype: int64</pre>
       <td>1.0</td>
       <td>2.0</td>
       <td>...</td>
-      <td>1</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -15814,12 +15827,12 @@ dtype: int64</pre>
       <td>4.0</td>
       <td>1.0</td>
       <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -15838,12 +15851,12 @@ dtype: int64</pre>
       <td>4.0</td>
       <td>1.0</td>
       <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -15862,10 +15875,10 @@ dtype: int64</pre>
       <td>1.5</td>
       <td>1.0</td>
       <td>...</td>
-      <td>1</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>1</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -15886,10 +15899,10 @@ dtype: int64</pre>
       <td>1.5</td>
       <td>1.0</td>
       <td>...</td>
-      <td>1</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>1</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -15910,12 +15923,12 @@ dtype: int64</pre>
       <td>4.0</td>
       <td>4.0</td>
       <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -15948,7 +15961,7 @@ $$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="prompt input_prompt">In&nbsp;[126]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LinearRegression</span>
@@ -15962,7 +15975,7 @@ $$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[46]:</div>
+<div class="prompt input_prompt">In&nbsp;[127]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">listings_y</span> <span class="o">=</span> <span class="n">listings_df_v4</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">]</span>
@@ -15976,7 +15989,7 @@ $$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="prompt input_prompt">In&nbsp;[128]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x_train</span><span class="p">,</span> <span class="n">x_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">listings_x</span><span class="p">,</span> <span class="n">listings_y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.3</span><span class="p">)</span>
@@ -15989,7 +16002,7 @@ $$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[129]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lr</span> <span class="o">=</span> <span class="n">LinearRegression</span><span class="p">()</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">x_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
@@ -16002,7 +16015,7 @@ $$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[130]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 係数</span>
@@ -16020,23 +16033,23 @@ $$
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[32]:</div>
+    <div class="prompt output_prompt">Out[130]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>host_response_rate           30681.328704
-host_acceptance_rate         43199.407772
-host_is_superhost            -1618.946461
-host_listings_count            567.228639
-host_has_profile_pic             0.000017
-                                 ...     
-Iron                           958.736881
-&#34;Antibacterial solutions&#34;        0.000000
-&#34;En suite bathroom&#34;           4291.963964
-&#34;Barbecue utensils&#34;          -9086.490881
-Keypad                       11842.563331
+<pre>host_response_rate            22966.142430
+host_acceptance_rate          22665.923427
+host_is_superhost             -2392.974921
+host_listings_count             501.194506
+host_has_profile_pic          17529.108425
+                                  ...     
+Dryer                         -4842.603772
+&#34;Accessible-height toilet&#34;    -2879.930025
+&#34;Memory foam mattress&#34;          286.789212
+&#34;Electric profiling bed&#34;          0.000000
+&#34;Cleaning before checkout&#34;     2318.390887
 Length: 292, dtype: float64</pre>
 </div>
 
@@ -16048,7 +16061,7 @@ Length: 292, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[131]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 切片</span>
@@ -16065,13 +16078,13 @@ Length: 292, dtype: float64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[33]:</div>
+    <div class="prompt output_prompt">Out[131]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>-22726.77331476845</pre>
+<pre>-3577.8278616598473</pre>
 </div>
 
 </div>
@@ -16082,7 +16095,7 @@ Length: 292, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[132]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 決定係数</span>
@@ -16110,8 +16123,8 @@ Length: 292, dtype: float64</pre>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>R^2 score (train data)	:  0.18417884824213993
-R^2 score (test data)	:  0.09954642067904917
+<pre>R^2 score (train data)	:  0.16164750974665898
+R^2 score (test data)	:  0.14891920275598614
 </pre>
 </div>
 </div>
@@ -16122,7 +16135,7 @@ R^2 score (test data)	:  0.09954642067904917
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[133]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lr</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">x_test</span><span class="p">)</span>
@@ -16138,14 +16151,14 @@ R^2 score (test data)	:  0.09954642067904917
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[35]:</div>
+    <div class="prompt output_prompt">Out[133]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([11370.68988368, 25633.89582161, -8606.6118405 , ...,
-        4760.38534482, 52220.46100005, -9936.43280475])</pre>
+<pre>array([ 50241.63624087,  73557.19976809,  23747.79232225, ...,
+       101018.41476918,  69441.54931481,  23524.20169659])</pre>
 </div>
 
 </div>
@@ -16156,7 +16169,7 @@ R^2 score (test data)	:  0.09954642067904917
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[134]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">mean_absolute_error</span>
@@ -16170,7 +16183,7 @@ R^2 score (test data)	:  0.09954642067904917
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[135]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;MAE train data</span><span class="se">\t</span><span class="s1">: &#39;</span><span class="p">,</span> <span class="n">mean_absolute_error</span><span class="p">(</span><span class="n">y_train</span><span class="p">,</span> <span class="n">lr</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">x_train</span><span class="p">)))</span>
@@ -16193,10 +16206,10 @@ R^2 score (test data)	:  0.09954642067904917
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>MAE train data	:  28926.66245702887
-MAE test data	:  31125.913423201666
-RMSE train data	:  69772.42927525908
-RMSE test data	:  78579.79770238714
+<pre>MAE train data	:  28704.2890275334
+MAE test data	:  30537.710681949273
+RMSE train data	:  72522.16879523371
+RMSE test data	:  72298.93985554916
 </pre>
 </div>
 </div>
@@ -16224,7 +16237,7 @@ RMSE test data	:  78579.79770238714
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="prompt input_prompt">In&nbsp;[136]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">cross_validate</span><span class="p">,</span> <span class="n">cross_val_predict</span>
@@ -16237,7 +16250,7 @@ RMSE test data	:  78579.79770238714
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="prompt input_prompt">In&nbsp;[137]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">scoring</span> <span class="o">=</span> <span class="p">[</span>
@@ -16255,7 +16268,40 @@ RMSE test data	:  78579.79770238714
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[49]:</div>
+<div class="prompt input_prompt">In&nbsp;[138]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">scores</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>{&#39;fit_time&#39;: array([0.13076496, 0.09073806, 0.1091609 , 0.10295725, 0.08015013]), &#39;score_time&#39;: array([0.01497412, 0.01079011, 0.010818  , 0.00724196, 0.00875187]), &#39;estimator&#39;: (LinearRegression(), LinearRegression(), LinearRegression(), LinearRegression(), LinearRegression()), &#39;test_neg_mean_absolute_error&#39;: array([-29589.73465038, -30572.55184722, -29512.15536249, -31755.32960665,
+       -31394.95330055]), &#39;test_neg_root_mean_squared_error&#39;: array([-68477.9204862 , -79648.28606277, -64920.9949184 , -81671.0221467 ,
+       -80753.62850787])}
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[139]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;MAE平均</span><span class="se">\t</span><span class="s1">: &#39;</span><span class="p">,</span> <span class="n">scores</span><span class="p">[</span><span class="s1">&#39;test_neg_mean_absolute_error&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>
@@ -16276,8 +16322,8 @@ RMSE test data	:  78579.79770238714
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>MAE平均	:  -30038.863802876185
-RMSE平均	:  -74413.2601436673
+<pre>MAE平均	:  -30564.944953455946
+RMSE平均	:  -75094.37042438792
 </pre>
 </div>
 </div>
@@ -16301,7 +16347,7 @@ $$<p>の範囲にある$x$，つまり四分位範囲の1.5倍の範囲外にあ
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[155]:</div>
+<div class="prompt input_prompt">In&nbsp;[140]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">q_1</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">statistics</span><span class="p">[</span><span class="s1">&#39;25%&#39;</span><span class="p">])</span>
@@ -16322,7 +16368,7 @@ $$<p>の範囲にある$x$，つまり四分位範囲の1.5倍の範囲外にあ
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[156]:</div>
+<div class="prompt input_prompt">In&nbsp;[141]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">listings_df_v6</span>
@@ -16338,7 +16384,7 @@ $$<p>の範囲にある$x$，つまり四分位範囲の1.5倍の範囲外にあ
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[156]:</div>
+    <div class="prompt output_prompt">Out[141]:</div>
 
 
 
@@ -16372,16 +16418,16 @@ $$<p>の範囲にある$x$，つまり四分位範囲の1.5倍の範囲外にあ
       <th>bathrooms</th>
       <th>bedrooms</th>
       <th>...</th>
-      <th>Shampoo</th>
-      <th>"Roll-in shower"</th>
-      <th>"Smoke alarm"</th>
-      <th>Waterfront</th>
-      <th>Elevator</th>
-      <th>Iron</th>
-      <th>"Projector and screen"</th>
-      <th>"Indoor fireplace"</th>
-      <th>"Roll-in shower with chair"</th>
-      <th>"Building staff"</th>
+      <th>"Family/kid friendly"</th>
+      <th>"Bath towel"</th>
+      <th>Breakfast</th>
+      <th>Wifi</th>
+      <th>Crib</th>
+      <th>Dryer</th>
+      <th>"Accessible-height toilet"</th>
+      <th>"Memory foam mattress"</th>
+      <th>"Electric profiling bed"</th>
+      <th>"Cleaning before checkout"</th>
     </tr>
   </thead>
   <tbody>
@@ -16400,8 +16446,8 @@ $$<p>の範囲にある$x$，つまり四分位範囲の1.5倍の範囲外にあ
       <td>...</td>
       <td>1</td>
       <td>0</td>
-      <td>1</td>
       <td>0</td>
+      <td>1</td>
       <td>0</td>
       <td>1</td>
       <td>0</td>
@@ -16425,9 +16471,9 @@ $$<p>の範囲にある$x$，つまり四分位範囲の1.5倍の範囲外にあ
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>1</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -16446,12 +16492,12 @@ $$<p>の範囲にある$x$，つまり四分位範囲の1.5倍の範囲外にあ
       <td>1.0</td>
       <td>0.0</td>
       <td>...</td>
-      <td>1</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -16472,10 +16518,10 @@ $$<p>の範囲にある$x$，つまり四分位範囲の1.5倍の範囲外にあ
       <td>...</td>
       <td>1</td>
       <td>0</td>
+      <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -16494,12 +16540,12 @@ $$<p>の範囲にある$x$，つまり四分位範囲の1.5倍の範囲外にあ
       <td>1.0</td>
       <td>2.0</td>
       <td>...</td>
-      <td>1</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -16542,12 +16588,12 @@ $$<p>の範囲にある$x$，つまり四分位範囲の1.5倍の範囲外にあ
       <td>4.0</td>
       <td>1.0</td>
       <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -16566,12 +16612,12 @@ $$<p>の範囲にある$x$，つまり四分位範囲の1.5倍の範囲外にあ
       <td>4.0</td>
       <td>1.0</td>
       <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -16590,10 +16636,10 @@ $$<p>の範囲にある$x$，つまり四分位範囲の1.5倍の範囲外にあ
       <td>1.5</td>
       <td>1.0</td>
       <td>...</td>
-      <td>1</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>1</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -16614,10 +16660,10 @@ $$<p>の範囲にある$x$，つまり四分位範囲の1.5倍の範囲外にあ
       <td>1.5</td>
       <td>1.0</td>
       <td>...</td>
-      <td>1</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>1</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -16638,12 +16684,12 @@ $$<p>の範囲にある$x$，つまり四分位範囲の1.5倍の範囲外にあ
       <td>4.0</td>
       <td>4.0</td>
       <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -16663,7 +16709,7 @@ $$<p>の範囲にある$x$，つまり四分位範囲の1.5倍の範囲外にあ
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[89]:</div>
+<div class="prompt input_prompt">In&nbsp;[142]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">listings_y_v6</span> <span class="o">=</span> <span class="n">listings_df_v6</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">]</span>
@@ -16678,7 +16724,7 @@ $$<p>の範囲にある$x$，つまり四分位範囲の1.5倍の範囲外にあ
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[90]:</div>
+<div class="prompt input_prompt">In&nbsp;[143]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">scoring</span> <span class="o">=</span> <span class="p">[</span>
@@ -16696,7 +16742,50 @@ $$<p>の範囲にある$x$，つまり四分位範囲の1.5倍の範囲外にあ
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[92]:</div>
+<div class="prompt input_prompt">In&nbsp;[144]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">scores</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[144]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;fit_time&#39;: array([0.07265687, 0.06229091, 0.05691218, 0.05842304, 0.05830288]),
+ &#39;score_time&#39;: array([0.0089221 , 0.00979924, 0.00758696, 0.00744987, 0.00794411]),
+ &#39;estimator&#39;: (LinearRegression(),
+  LinearRegression(),
+  LinearRegression(),
+  LinearRegression(),
+  LinearRegression()),
+ &#39;test_neg_mean_absolute_error&#39;: array([-3051.1410945 , -2793.80663441, -2905.58565214, -2996.90929538,
+        -2922.29955377]),
+ &#39;test_neg_root_mean_squared_error&#39;: array([-3922.59246139, -3560.64329087, -3832.65386618, -3923.12197217,
+        -3834.75992657])}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[145]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;MAE平均</span><span class="se">\t</span><span class="s1">: &#39;</span><span class="p">,</span> <span class="n">scores</span><span class="p">[</span><span class="s1">&#39;test_neg_mean_absolute_error&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>
@@ -16717,53 +16806,10 @@ $$<p>の範囲にある$x$，つまり四分位範囲の1.5倍の範囲外にあ
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>MAE平均	:  -2954.6860300476687
-RMSE平均	:  -3879.153267961671
+<pre>MAE平均	:  -2933.9484460401177
+RMSE平均	:  -3814.7543034371497
 </pre>
 </div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[91]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">scores</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[91]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>{&#39;fit_time&#39;: array([0.07412934, 0.06463289, 0.06595683, 0.06952596, 0.09334707]),
- &#39;score_time&#39;: array([0.00761795, 0.00761127, 0.00749421, 0.00834203, 0.01094103]),
- &#39;estimator&#39;: (LinearRegression(),
-  LinearRegression(),
-  LinearRegression(),
-  LinearRegression(),
-  LinearRegression()),
- &#39;test_neg_mean_absolute_error&#39;: array([-2886.3159263 , -2987.00655673, -3006.87328039, -2983.3015052 ,
-        -2909.93288161]),
- &#39;test_neg_root_mean_squared_error&#39;: array([-3757.06559509, -3921.50357701, -4032.76397198, -3882.20711417,
-        -3802.22608156])}</pre>
-</div>
-
 </div>
 
 </div>
@@ -16794,15 +16840,16 @@ RMSE平均	:  -3879.153267961671
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[153]:</div>
+<div class="prompt input_prompt">In&nbsp;[146]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">excludings</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
-<span class="k">for</span> <span class="n">clm_name</span><span class="p">,</span> <span class="n">ser</span> <span class="ow">in</span> <span class="n">listings_df_v6</span><span class="o">.</span><span class="n">iteritems</span><span class="p">():</span>
-    <span class="k">if</span> <span class="n">ser</span><span class="o">.</span><span class="n">var</span><span class="p">()</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="nb">list</span><span class="p">(</span><span class="n">ser</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">normalize</span><span class="o">=</span><span class="kc">True</span><span class="p">))[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mf">0.99</span><span class="p">:</span>
-        <span class="n">excludings</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">clm_name</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">exclude_biased_data</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
+    <span class="n">excludings</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">clm_name</span><span class="p">,</span> <span class="n">ser</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">iteritems</span><span class="p">():</span>
+        <span class="k">if</span> <span class="n">ser</span><span class="o">.</span><span class="n">var</span><span class="p">()</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="nb">list</span><span class="p">(</span><span class="n">ser</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">normalize</span><span class="o">=</span><span class="kc">True</span><span class="p">))[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mf">0.99</span><span class="p">:</span>
+            <span class="n">excludings</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">clm_name</span><span class="p">)</span>
 
-<span class="n">listings_df_v7</span> <span class="o">=</span> <span class="n">listings_df_v6</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">excludings</span><span class="p">),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">excludings</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -16812,10 +16859,2038 @@ RMSE平均	:  -3879.153267961671
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[154]:</div>
+<div class="prompt input_prompt">In&nbsp;[147]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">listings_df_v7</span> <span class="o">=</span> <span class="n">exclude_biased_data</span><span class="p">(</span><span class="n">listings_df_v6</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[148]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">listings_df_v7</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[148]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>host_response_rate</th>
+      <th>host_acceptance_rate</th>
+      <th>host_is_superhost</th>
+      <th>host_listings_count</th>
+      <th>host_identity_verified</th>
+      <th>is_location_exact</th>
+      <th>accommodates</th>
+      <th>bathrooms</th>
+      <th>bedrooms</th>
+      <th>beds</th>
+      <th>...</th>
+      <th>"Handheld shower head"</th>
+      <th>Kitchen</th>
+      <th>"Extra pillows and blankets"</th>
+      <th>"Hot water"</th>
+      <th>"Family/kid friendly"</th>
+      <th>Breakfast</th>
+      <th>Wifi</th>
+      <th>Crib</th>
+      <th>Dryer</th>
+      <th>"Cleaning before checkout"</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>1.0</td>
+      <td>0.85</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>2.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1.0</td>
+      <td>0.80</td>
+      <td>0</td>
+      <td>2.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1.0</td>
+      <td>0.92</td>
+      <td>1</td>
+      <td>3.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1.0</td>
+      <td>0.80</td>
+      <td>0</td>
+      <td>2.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>1.0</td>
+      <td>0.92</td>
+      <td>1</td>
+      <td>3.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>2.0</td>
+      <td>2.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>14592</th>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>0</td>
+      <td>13.0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>4.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>14600</th>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>0</td>
+      <td>13.0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>4.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>14611</th>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>1.5</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>14614</th>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>1.5</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>14627</th>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>0</td>
+      <td>13.0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>11</td>
+      <td>4.0</td>
+      <td>4.0</td>
+      <td>5.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>6430 rows × 146 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Q12.-&#30446;&#30340;&#22793;&#25968;&#12392;&#35500;&#26126;&#22793;&#25968;&#12398;&#30456;&#38306;&#20998;&#26512;">Q12. &#30446;&#30340;&#22793;&#25968;&#12392;&#35500;&#26126;&#22793;&#25968;&#12398;&#30456;&#38306;&#20998;&#26512;<a class="anchor-link" href="#Q12.-&#30446;&#30340;&#22793;&#25968;&#12392;&#35500;&#26126;&#22793;&#25968;&#12398;&#30456;&#38306;&#20998;&#26512;">&#182;</a></h3><p>特徴量選択の方法の1つであるフィルター法として，目的変数と説明変数（特徴量）との相関係数が大きいものを優先的に採用する方法がある．相関係数による特徴量選択を行うために，<code>price</code>属性とその他の属性の相関係数を求め，その上位30件を表示せよ．</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[149]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">corrs_v7</span> <span class="o">=</span> <span class="n">listings_df_v7</span><span class="o">.</span><span class="n">corr</span><span class="p">()[</span><span class="s1">&#39;price&#39;</span><span class="p">]</span>
+<span class="n">corrs_v7</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="mi">1</span><span class="p">:</span><span class="mi">31</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[149]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>accommodates                          0.447236
+beds                                  0.300920
+cleaning_fee                          0.284217
+bedrooms                              0.265355
+room_type_Entire home/apt             0.243453
+Kitchen                               0.145556
+TV                                    0.143064
+&#34;Private living room&#34;                 0.139991
+Elevator                              0.135669
+&#34;Private entrance&#34;                    0.123950
+&#34;Dishes and silverware&#34;               0.119900
+Washer                                0.114608
+&#34;Laptop-friendly workspace&#34;           0.111532
+neighbourhood_cleansed_Shibuya Ku     0.107003
+neighbourhood_cleansed_Shinjuku Ku    0.104540
+Stove                                 0.099315
+&#34;Pocket wifi&#34;                         0.091620
+review_scores_cleanliness             0.089192
+Iron                                  0.087093
+Dishwasher                            0.085243
+&#34;Cooking basics&#34;                      0.084828
+&#34;Wide entrance for guests&#34;            0.083095
+review_scores_rating                  0.081814
+&#34;Patio or balcony&#34;                    0.077185
+Bathtub                               0.075010
+Shampoo                               0.072930
+&#34;Smart lock&#34;                          0.072111
+neighbourhood_cleansed_Minato Ku      0.071667
+&#34;Wide hallways&#34;                       0.070935
+host_response_time_within an hour     0.069617
+Name: price, dtype: float64</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Q13.-&#30456;&#38306;&#20418;&#25968;&#12395;&#12424;&#12427;&#29305;&#24500;&#37327;&#36984;&#25246;">Q13. &#30456;&#38306;&#20418;&#25968;&#12395;&#12424;&#12427;&#29305;&#24500;&#37327;&#36984;&#25246;<a class="anchor-link" href="#Q13.-&#30456;&#38306;&#20418;&#25968;&#12395;&#12424;&#12427;&#29305;&#24500;&#37327;&#36984;&#25246;">&#182;</a></h3><p><code>listing_df_v7</code>における<code>price</code>値の予測モデルの構築において，相関係数に基づく特徴量選択を行い，相関係数が大きい上位k件の特徴量を用いて線形回帰モデルを構築することを考える．選択する特徴量の個数をk=1から1ずつ増やしていった際の，学習時間，MAE，RMSEの変化を折れ線グラフで図示せよ．</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[150]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">listings_y_v7</span> <span class="o">=</span> <span class="n">listings_df_v7</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">]</span>
+<span class="n">listings_x_v7</span> <span class="o">=</span> <span class="n">listings_df_v7</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;price&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">x_train_v7</span><span class="p">,</span> <span class="n">x_test_v7</span><span class="p">,</span> <span class="n">y_train_v7</span><span class="p">,</span> <span class="n">y_test_v7</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">listings_x_v7</span><span class="p">,</span> <span class="n">listings_y_v7</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.3</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">validate</span><span class="p">(</span><span class="n">features</span><span class="p">,</span> <span class="n">corrs</span><span class="p">,</span> <span class="n">model</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="n">selected</span> <span class="o">=</span> <span class="n">corrs</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="mi">1</span><span class="p">:</span><span class="n">features</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span>
+
+    <span class="n">scoring</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="s1">&#39;r2&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;neg_mean_absolute_error&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;neg_root_mean_squared_error&#39;</span>
+        <span class="p">]</span>
+
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">model</span><span class="p">:</span>
+        <span class="n">model</span> <span class="o">=</span> <span class="n">LinearRegression</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">cross_validate</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">x_train_v6</span><span class="p">[</span><span class="n">selected</span><span class="o">.</span><span class="n">index</span><span class="p">],</span> <span class="n">y_train_v6</span><span class="p">,</span> <span class="n">scoring</span><span class="o">=</span><span class="n">scoring</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">return_estimator</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[151]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># time_arr = [validate(i).get(&#39;time&#39;) for i in range(1, len(corrs_v7)-1)]</span>
+<span class="c1"># mae_arr = [validate(i).get(&#39;MAE&#39;) for i in range(1, len(corrs_v7)-1)]</span>
+<span class="c1"># rmse_arr = [validate(i).get(&#39;RMSE&#39;) for i in range(1, len(corrs_v7)-1)]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[152]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">time_arr</span><span class="p">,</span> <span class="n">mae_arr</span><span class="p">,</span> <span class="n">rmse_arr</span> <span class="o">=</span> <span class="p">[],</span> <span class="p">[],</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">corrs_v7</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+    <span class="n">score</span> <span class="o">=</span> <span class="n">validate</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">corrs_v7</span><span class="p">)</span>
+    <span class="n">time_arr</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">score</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;score_time&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>
+    <span class="n">mae_arr</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">score</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;test_neg_mean_absolute_error&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>
+    <span class="n">rmse_arr</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">score</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;test_neg_root_mean_squared_error&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[153]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plot</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="p">(</span><span class="n">ax_time</span><span class="p">,</span> <span class="n">ax_mae</span><span class="p">,</span> <span class="n">ax_rmse</span><span class="p">)</span> <span class="o">=</span> <span class="n">plot</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="n">ax_time</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">corrs_v7</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">time_arr</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;Time&#39;</span><span class="p">)</span>
+<span class="n">ax_mae</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">corrs_v7</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">mae_arr</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;green&#39;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;MAE&#39;</span><span class="p">)</span>
+<span class="n">ax_rmse</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">corrs_v7</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">rmse_arr</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;blue&#39;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;RMSE&#39;</span><span class="p">)</span>
+
+<span class="n">ax_time</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper right&#39;</span><span class="p">)</span>
+<span class="n">ax_mae</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper right&#39;</span><span class="p">)</span>
+<span class="n">ax_rmse</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper right&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_svg output_subarea ">
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with matplotlib (https://matplotlib.org/) -->
+<svg height="280.478125pt" version="1.1" viewBox="0 0 425.004687 280.478125" width="425.004687pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata>
+  <rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2020-09-02T09:08:03.646514</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.3.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linecap:butt;stroke-linejoin:round;}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 280.478125 
+L 425.004687 280.478125 
+L 425.004687 0 
+L 0 0 
+z
+" style="fill:none;"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 48.029688 71.8 
+L 417.804688 71.8 
+L 417.804688 7.2 
+L 48.029688 7.2 
+z
+"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path d="M 0 0 
+L 0 3.5 
+" id="mfd6086bced" style="stroke:#ffffff;stroke-width:0.8;"/>
+      </defs>
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="62.486879" xlink:href="#mfd6086bced" y="71.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <!-- 0 -->
+      <g style="fill:#ffffff;" transform="translate(59.305629 86.398437)scale(0.1 -0.1)">
+       <defs>
+        <path d="M 31.78125 66.40625 
+Q 24.171875 66.40625 20.328125 58.90625 
+Q 16.5 51.421875 16.5 36.375 
+Q 16.5 21.390625 20.328125 13.890625 
+Q 24.171875 6.390625 31.78125 6.390625 
+Q 39.453125 6.390625 43.28125 13.890625 
+Q 47.125 21.390625 47.125 36.375 
+Q 47.125 51.421875 43.28125 58.90625 
+Q 39.453125 66.40625 31.78125 66.40625 
+z
+M 31.78125 74.21875 
+Q 44.046875 74.21875 50.515625 64.515625 
+Q 56.984375 54.828125 56.984375 36.375 
+Q 56.984375 17.96875 50.515625 8.265625 
+Q 44.046875 -1.421875 31.78125 -1.421875 
+Q 19.53125 -1.421875 13.0625 8.265625 
+Q 6.59375 17.96875 6.59375 36.375 
+Q 6.59375 54.828125 13.0625 64.515625 
+Q 19.53125 74.21875 31.78125 74.21875 
+z
+" id="DejaVuSans-48"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="109.502137" xlink:href="#mfd6086bced" y="71.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <!-- 20 -->
+      <g style="fill:#ffffff;" transform="translate(103.139637 86.398437)scale(0.1 -0.1)">
+       <defs>
+        <path d="M 19.1875 8.296875 
+L 53.609375 8.296875 
+L 53.609375 0 
+L 7.328125 0 
+L 7.328125 8.296875 
+Q 12.9375 14.109375 22.625 23.890625 
+Q 32.328125 33.6875 34.8125 36.53125 
+Q 39.546875 41.84375 41.421875 45.53125 
+Q 43.3125 49.21875 43.3125 52.78125 
+Q 43.3125 58.59375 39.234375 62.25 
+Q 35.15625 65.921875 28.609375 65.921875 
+Q 23.96875 65.921875 18.8125 64.3125 
+Q 13.671875 62.703125 7.8125 59.421875 
+L 7.8125 69.390625 
+Q 13.765625 71.78125 18.9375 73 
+Q 24.125 74.21875 28.421875 74.21875 
+Q 39.75 74.21875 46.484375 68.546875 
+Q 53.21875 62.890625 53.21875 53.421875 
+Q 53.21875 48.921875 51.53125 44.890625 
+Q 49.859375 40.875 45.40625 35.40625 
+Q 44.1875 33.984375 37.640625 27.21875 
+Q 31.109375 20.453125 19.1875 8.296875 
+z
+" id="DejaVuSans-50"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-50"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="156.517394" xlink:href="#mfd6086bced" y="71.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <!-- 40 -->
+      <g style="fill:#ffffff;" transform="translate(150.154894 86.398437)scale(0.1 -0.1)">
+       <defs>
+        <path d="M 37.796875 64.3125 
+L 12.890625 25.390625 
+L 37.796875 25.390625 
+z
+M 35.203125 72.90625 
+L 47.609375 72.90625 
+L 47.609375 25.390625 
+L 58.015625 25.390625 
+L 58.015625 17.1875 
+L 47.609375 17.1875 
+L 47.609375 0 
+L 37.796875 0 
+L 37.796875 17.1875 
+L 4.890625 17.1875 
+L 4.890625 26.703125 
+z
+" id="DejaVuSans-52"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-52"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="203.532652" xlink:href="#mfd6086bced" y="71.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <!-- 60 -->
+      <g style="fill:#ffffff;" transform="translate(197.170152 86.398437)scale(0.1 -0.1)">
+       <defs>
+        <path d="M 33.015625 40.375 
+Q 26.375 40.375 22.484375 35.828125 
+Q 18.609375 31.296875 18.609375 23.390625 
+Q 18.609375 15.53125 22.484375 10.953125 
+Q 26.375 6.390625 33.015625 6.390625 
+Q 39.65625 6.390625 43.53125 10.953125 
+Q 47.40625 15.53125 47.40625 23.390625 
+Q 47.40625 31.296875 43.53125 35.828125 
+Q 39.65625 40.375 33.015625 40.375 
+z
+M 52.59375 71.296875 
+L 52.59375 62.3125 
+Q 48.875 64.0625 45.09375 64.984375 
+Q 41.3125 65.921875 37.59375 65.921875 
+Q 27.828125 65.921875 22.671875 59.328125 
+Q 17.53125 52.734375 16.796875 39.40625 
+Q 19.671875 43.65625 24.015625 45.921875 
+Q 28.375 48.1875 33.59375 48.1875 
+Q 44.578125 48.1875 50.953125 41.515625 
+Q 57.328125 34.859375 57.328125 23.390625 
+Q 57.328125 12.15625 50.6875 5.359375 
+Q 44.046875 -1.421875 33.015625 -1.421875 
+Q 20.359375 -1.421875 13.671875 8.265625 
+Q 6.984375 17.96875 6.984375 36.375 
+Q 6.984375 53.65625 15.1875 63.9375 
+Q 23.390625 74.21875 37.203125 74.21875 
+Q 40.921875 74.21875 44.703125 73.484375 
+Q 48.484375 72.75 52.59375 71.296875 
+z
+" id="DejaVuSans-54"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-54"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="250.547909" xlink:href="#mfd6086bced" y="71.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <!-- 80 -->
+      <g style="fill:#ffffff;" transform="translate(244.185409 86.398437)scale(0.1 -0.1)">
+       <defs>
+        <path d="M 31.78125 34.625 
+Q 24.75 34.625 20.71875 30.859375 
+Q 16.703125 27.09375 16.703125 20.515625 
+Q 16.703125 13.921875 20.71875 10.15625 
+Q 24.75 6.390625 31.78125 6.390625 
+Q 38.8125 6.390625 42.859375 10.171875 
+Q 46.921875 13.96875 46.921875 20.515625 
+Q 46.921875 27.09375 42.890625 30.859375 
+Q 38.875 34.625 31.78125 34.625 
+z
+M 21.921875 38.8125 
+Q 15.578125 40.375 12.03125 44.71875 
+Q 8.5 49.078125 8.5 55.328125 
+Q 8.5 64.0625 14.71875 69.140625 
+Q 20.953125 74.21875 31.78125 74.21875 
+Q 42.671875 74.21875 48.875 69.140625 
+Q 55.078125 64.0625 55.078125 55.328125 
+Q 55.078125 49.078125 51.53125 44.71875 
+Q 48 40.375 41.703125 38.8125 
+Q 48.828125 37.15625 52.796875 32.3125 
+Q 56.78125 27.484375 56.78125 20.515625 
+Q 56.78125 9.90625 50.3125 4.234375 
+Q 43.84375 -1.421875 31.78125 -1.421875 
+Q 19.734375 -1.421875 13.25 4.234375 
+Q 6.78125 9.90625 6.78125 20.515625 
+Q 6.78125 27.484375 10.78125 32.3125 
+Q 14.796875 37.15625 21.921875 38.8125 
+z
+M 18.3125 54.390625 
+Q 18.3125 48.734375 21.84375 45.5625 
+Q 25.390625 42.390625 31.78125 42.390625 
+Q 38.140625 42.390625 41.71875 45.5625 
+Q 45.3125 48.734375 45.3125 54.390625 
+Q 45.3125 60.0625 41.71875 63.234375 
+Q 38.140625 66.40625 31.78125 66.40625 
+Q 25.390625 66.40625 21.84375 63.234375 
+Q 18.3125 60.0625 18.3125 54.390625 
+z
+" id="DejaVuSans-56"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-56"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="297.563167" xlink:href="#mfd6086bced" y="71.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <!-- 100 -->
+      <g style="fill:#ffffff;" transform="translate(288.019417 86.398437)scale(0.1 -0.1)">
+       <defs>
+        <path d="M 12.40625 8.296875 
+L 28.515625 8.296875 
+L 28.515625 63.921875 
+L 10.984375 60.40625 
+L 10.984375 69.390625 
+L 28.421875 72.90625 
+L 38.28125 72.90625 
+L 38.28125 8.296875 
+L 54.390625 8.296875 
+L 54.390625 0 
+L 12.40625 0 
+z
+" id="DejaVuSans-49"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-49"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-48"/>
+       <use x="127.246094" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="344.578424" xlink:href="#mfd6086bced" y="71.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <!-- 120 -->
+      <g style="fill:#ffffff;" transform="translate(335.034674 86.398437)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-49"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-50"/>
+       <use x="127.246094" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="391.593681" xlink:href="#mfd6086bced" y="71.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <!-- 140 -->
+      <g style="fill:#ffffff;" transform="translate(382.049931 86.398437)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-49"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-52"/>
+       <use x="127.246094" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_9">
+      <defs>
+       <path d="M 0 0 
+L -3.5 0 
+" id="m91e16da66c" style="stroke:#ffffff;stroke-width:0.8;"/>
+      </defs>
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="48.029688" xlink:href="#m91e16da66c" y="50.167962"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <!-- 0.004 -->
+      <g style="fill:#ffffff;" transform="translate(12.401563 53.96718)scale(0.1 -0.1)">
+       <defs>
+        <path d="M 10.6875 12.40625 
+L 21 12.40625 
+L 21 0 
+L 10.6875 0 
+z
+" id="DejaVuSans-46"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-48"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-46"/>
+       <use x="95.410156" xlink:href="#DejaVuSans-48"/>
+       <use x="159.033203" xlink:href="#DejaVuSans-48"/>
+       <use x="222.65625" xlink:href="#DejaVuSans-52"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_10">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="48.029688" xlink:href="#m91e16da66c" y="26.160629"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <!-- 0.006 -->
+      <g style="fill:#ffffff;" transform="translate(12.401563 29.959848)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-48"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-46"/>
+       <use x="95.410156" xlink:href="#DejaVuSans-48"/>
+       <use x="159.033203" xlink:href="#DejaVuSans-48"/>
+       <use x="222.65625" xlink:href="#DejaVuSans-54"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_11">
+    <path clip-path="url(#p8917a0394d)" d="M 64.837642 57.912301 
+L 67.188405 59.101133 
+L 69.539168 60.589892 
+L 71.889931 58.144115 
+L 74.240694 62.916614 
+L 76.591456 63.381386 
+L 78.942219 61.91495 
+L 81.292982 62.622411 
+L 83.643745 61.373479 
+L 85.994508 68.070318 
+L 88.345271 62.550864 
+L 90.696034 65.092228 
+L 95.397559 63.083749 
+L 97.748322 60.88295 
+L 100.099085 65.013812 
+L 102.449848 68.863636 
+L 104.800611 62.608674 
+L 107.151374 63.828987 
+L 109.502137 63.611483 
+L 111.8529 63.847876 
+L 114.203662 62.186258 
+L 116.554425 63.205666 
+L 118.905188 58.5568 
+L 121.255951 57.755469 
+L 123.606714 54.357252 
+L 125.957477 56.599835 
+L 128.30824 55.086464 
+L 130.659003 57.667323 
+L 133.009765 58.001592 
+L 135.360528 55.860893 
+L 137.711291 56.465326 
+L 140.062054 55.871768 
+L 142.412817 56.009139 
+L 144.76358 52.580587 
+L 147.114343 55.633086 
+L 149.465105 55.405852 
+L 151.815868 57.161912 
+L 154.166631 56.702291 
+L 156.517394 53.377911 
+L 158.868157 54.407049 
+L 161.21892 54.309745 
+L 163.569683 53.249126 
+L 165.920446 52.789505 
+L 168.271208 56.577512 
+L 170.621971 52.288673 
+L 172.972734 53.115762 
+L 175.323497 53.628041 
+L 177.67426 49.907575 
+L 180.025023 50.291641 
+L 182.375786 54.109985 
+L 184.726549 47.735967 
+L 187.077311 52.178204 
+L 189.428074 52.445505 
+L 191.778837 53.829519 
+L 194.1296 49.197824 
+L 196.480363 52.475841 
+L 198.831126 50.637359 
+L 201.181889 49.995149 
+L 203.532652 56.708587 
+L 205.883414 49.690071 
+L 208.234177 46.787535 
+L 210.58494 48.713019 
+L 212.935703 46.622117 
+L 215.286466 45.039488 
+L 217.637229 42.489538 
+L 219.987992 46.651308 
+L 222.338755 47.861318 
+L 224.689517 39.602456 
+L 227.04028 41.738004 
+L 229.391043 41.303568 
+L 231.741806 44.077318 
+L 234.092569 43.953112 
+L 236.443332 42.170722 
+L 238.794095 44.21011 
+L 241.144858 41.113538 
+L 243.49562 45.007435 
+L 245.846383 45.682842 
+L 248.197146 42.181598 
+L 250.547909 41.359661 
+L 252.898672 42.801484 
+L 255.249435 43.419082 
+L 259.950961 40.207461 
+L 262.301723 40.891454 
+L 264.652486 39.903527 
+L 267.003249 39.894942 
+L 269.354012 42.433445 
+L 271.704775 40.995627 
+L 274.055538 38.227028 
+L 276.406301 40.658496 
+L 278.757064 39.760433 
+L 281.107826 40.347694 
+L 283.458589 41.630969 
+L 285.809352 44.471115 
+L 288.160115 38.617963 
+L 290.510878 40.811321 
+L 292.861641 39.865178 
+L 295.212404 39.556666 
+L 297.563167 41.176499 
+L 302.264692 36.288951 
+L 304.615455 33.290256 
+L 306.966218 37.37361 
+L 309.316981 41.228586 
+L 311.667744 34.816792 
+L 314.018507 37.783434 
+L 316.36927 38.331201 
+L 318.720032 41.948067 
+L 321.070795 35.280991 
+L 323.421558 33.473417 
+L 325.772321 21.044771 
+L 328.123084 24.497936 
+L 330.473847 26.861863 
+L 332.82461 26.887047 
+L 335.175372 22.163772 
+L 337.526135 22.452252 
+L 339.876898 34.167713 
+L 344.578424 35.711421 
+L 346.929187 32.668652 
+L 349.27995 31.944019 
+L 351.630713 31.096898 
+L 353.981475 25.952924 
+L 356.332238 11.376137 
+L 358.683001 13.837941 
+L 361.033764 15.456058 
+L 363.384527 18.703739 
+L 365.73529 18.784444 
+L 368.086053 24.856817 
+L 370.436816 29.973889 
+L 372.787578 28.244731 
+L 375.138341 24.159087 
+L 377.489104 25.152165 
+L 379.839867 17.2871 
+L 382.19063 10.136364 
+L 384.541393 13.14479 
+L 386.892156 21.93711 
+L 389.242919 19.904591 
+L 391.593681 16.271699 
+L 393.944444 25.041124 
+L 396.295207 29.627027 
+L 398.64597 24.47733 
+L 400.996733 25.910568 
+L 400.996733 25.910568 
+" style="fill:none;stroke:#ff0000;stroke-linecap:square;stroke-width:1.5;"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 48.029688 71.8 
+L 48.029688 7.2 
+" style="fill:none;stroke:#ffffff;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 417.804688 71.8 
+L 417.804688 7.2 
+" style="fill:none;stroke:#ffffff;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 48.029687 71.8 
+L 417.804688 71.8 
+" style="fill:none;stroke:#ffffff;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 48.029687 7.2 
+L 417.804688 7.2 
+" style="fill:none;stroke:#ffffff;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"/>
+   </g>
+   <g id="legend_1">
+    <g id="patch_7">
+     <path d="M 354.3375 29.878125 
+L 410.804688 29.878125 
+Q 412.804688 29.878125 412.804688 27.878125 
+L 412.804688 14.2 
+Q 412.804688 12.2 410.804688 12.2 
+L 354.3375 12.2 
+Q 352.3375 12.2 352.3375 14.2 
+L 352.3375 27.878125 
+Q 352.3375 29.878125 354.3375 29.878125 
+z
+" style="opacity:0.8;stroke:#cccccc;stroke-linejoin:miter;"/>
+    </g>
+    <g id="line2d_12">
+     <path d="M 356.3375 20.298437 
+L 376.3375 20.298437 
+" style="fill:none;stroke:#ff0000;stroke-linecap:square;stroke-width:1.5;"/>
+    </g>
+    <g id="line2d_13"/>
+    <g id="text_11">
+     <!-- Time -->
+     <g style="fill:#ffffff;" transform="translate(384.3375 23.798437)scale(0.1 -0.1)">
+      <defs>
+       <path d="M -0.296875 72.90625 
+L 61.375 72.90625 
+L 61.375 64.59375 
+L 35.5 64.59375 
+L 35.5 0 
+L 25.59375 0 
+L 25.59375 64.59375 
+L -0.296875 64.59375 
+z
+" id="DejaVuSans-84"/>
+       <path d="M 9.421875 54.6875 
+L 18.40625 54.6875 
+L 18.40625 0 
+L 9.421875 0 
+z
+M 9.421875 75.984375 
+L 18.40625 75.984375 
+L 18.40625 64.59375 
+L 9.421875 64.59375 
+z
+" id="DejaVuSans-105"/>
+       <path d="M 52 44.1875 
+Q 55.375 50.25 60.0625 53.125 
+Q 64.75 56 71.09375 56 
+Q 79.640625 56 84.28125 50.015625 
+Q 88.921875 44.046875 88.921875 33.015625 
+L 88.921875 0 
+L 79.890625 0 
+L 79.890625 32.71875 
+Q 79.890625 40.578125 77.09375 44.375 
+Q 74.3125 48.1875 68.609375 48.1875 
+Q 61.625 48.1875 57.5625 43.546875 
+Q 53.515625 38.921875 53.515625 30.90625 
+L 53.515625 0 
+L 44.484375 0 
+L 44.484375 32.71875 
+Q 44.484375 40.625 41.703125 44.40625 
+Q 38.921875 48.1875 33.109375 48.1875 
+Q 26.21875 48.1875 22.15625 43.53125 
+Q 18.109375 38.875 18.109375 30.90625 
+L 18.109375 0 
+L 9.078125 0 
+L 9.078125 54.6875 
+L 18.109375 54.6875 
+L 18.109375 46.1875 
+Q 21.1875 51.21875 25.484375 53.609375 
+Q 29.78125 56 35.6875 56 
+Q 41.65625 56 45.828125 52.96875 
+Q 50 49.953125 52 44.1875 
+z
+" id="DejaVuSans-109"/>
+       <path d="M 56.203125 29.59375 
+L 56.203125 25.203125 
+L 14.890625 25.203125 
+Q 15.484375 15.921875 20.484375 11.0625 
+Q 25.484375 6.203125 34.421875 6.203125 
+Q 39.59375 6.203125 44.453125 7.46875 
+Q 49.3125 8.734375 54.109375 11.28125 
+L 54.109375 2.78125 
+Q 49.265625 0.734375 44.1875 -0.34375 
+Q 39.109375 -1.421875 33.890625 -1.421875 
+Q 20.796875 -1.421875 13.15625 6.1875 
+Q 5.515625 13.8125 5.515625 26.8125 
+Q 5.515625 40.234375 12.765625 48.109375 
+Q 20.015625 56 32.328125 56 
+Q 43.359375 56 49.78125 48.890625 
+Q 56.203125 41.796875 56.203125 29.59375 
+z
+M 47.21875 32.234375 
+Q 47.125 39.59375 43.09375 43.984375 
+Q 39.0625 48.390625 32.421875 48.390625 
+Q 24.90625 48.390625 20.390625 44.140625 
+Q 15.875 39.890625 15.1875 32.171875 
+z
+" id="DejaVuSans-101"/>
+      </defs>
+      <use xlink:href="#DejaVuSans-84"/>
+      <use x="57.958984" xlink:href="#DejaVuSans-105"/>
+      <use x="85.742188" xlink:href="#DejaVuSans-109"/>
+      <use x="183.154297" xlink:href="#DejaVuSans-101"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_8">
+    <path d="M 48.029688 164.2 
+L 417.804688 164.2 
+L 417.804688 99.6 
+L 48.029688 99.6 
+z
+"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_9">
+     <g id="line2d_14">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="62.486879" xlink:href="#mfd6086bced" y="164.2"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <!-- 0 -->
+      <g style="fill:#ffffff;" transform="translate(59.305629 178.798437)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_15">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="109.502137" xlink:href="#mfd6086bced" y="164.2"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <!-- 20 -->
+      <g style="fill:#ffffff;" transform="translate(103.139637 178.798437)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-50"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_16">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="156.517394" xlink:href="#mfd6086bced" y="164.2"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <!-- 40 -->
+      <g style="fill:#ffffff;" transform="translate(150.154894 178.798437)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-52"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_17">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="203.532652" xlink:href="#mfd6086bced" y="164.2"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <!-- 60 -->
+      <g style="fill:#ffffff;" transform="translate(197.170152 178.798437)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-54"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_18">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="250.547909" xlink:href="#mfd6086bced" y="164.2"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <!-- 80 -->
+      <g style="fill:#ffffff;" transform="translate(244.185409 178.798437)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-56"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_19">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="297.563167" xlink:href="#mfd6086bced" y="164.2"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <!-- 100 -->
+      <g style="fill:#ffffff;" transform="translate(288.019417 178.798437)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-49"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-48"/>
+       <use x="127.246094" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_20">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="344.578424" xlink:href="#mfd6086bced" y="164.2"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <!-- 120 -->
+      <g style="fill:#ffffff;" transform="translate(335.034674 178.798437)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-49"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-50"/>
+       <use x="127.246094" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_21">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="391.593681" xlink:href="#mfd6086bced" y="164.2"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <!-- 140 -->
+      <g style="fill:#ffffff;" transform="translate(382.049931 178.798437)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-49"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-52"/>
+       <use x="127.246094" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_3">
+     <g id="line2d_22">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="48.029688" xlink:href="#m91e16da66c" y="153.831071"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <!-- −3400 -->
+      <g style="fill:#ffffff;" transform="translate(7.2 157.630289)scale(0.1 -0.1)">
+       <defs>
+        <path d="M 10.59375 35.5 
+L 73.1875 35.5 
+L 73.1875 27.203125 
+L 10.59375 27.203125 
+z
+" id="DejaVuSans-8722"/>
+        <path d="M 40.578125 39.3125 
+Q 47.65625 37.796875 51.625 33 
+Q 55.609375 28.21875 55.609375 21.1875 
+Q 55.609375 10.40625 48.1875 4.484375 
+Q 40.765625 -1.421875 27.09375 -1.421875 
+Q 22.515625 -1.421875 17.65625 -0.515625 
+Q 12.796875 0.390625 7.625 2.203125 
+L 7.625 11.71875 
+Q 11.71875 9.328125 16.59375 8.109375 
+Q 21.484375 6.890625 26.8125 6.890625 
+Q 36.078125 6.890625 40.9375 10.546875 
+Q 45.796875 14.203125 45.796875 21.1875 
+Q 45.796875 27.640625 41.28125 31.265625 
+Q 36.765625 34.90625 28.71875 34.90625 
+L 20.21875 34.90625 
+L 20.21875 43.015625 
+L 29.109375 43.015625 
+Q 36.375 43.015625 40.234375 45.921875 
+Q 44.09375 48.828125 44.09375 54.296875 
+Q 44.09375 59.90625 40.109375 62.90625 
+Q 36.140625 65.921875 28.71875 65.921875 
+Q 24.65625 65.921875 20.015625 65.03125 
+Q 15.375 64.15625 9.8125 62.3125 
+L 9.8125 71.09375 
+Q 15.4375 72.65625 20.34375 73.4375 
+Q 25.25 74.21875 29.59375 74.21875 
+Q 40.828125 74.21875 47.359375 69.109375 
+Q 53.90625 64.015625 53.90625 55.328125 
+Q 53.90625 49.265625 50.4375 45.09375 
+Q 46.96875 40.921875 40.578125 39.3125 
+z
+" id="DejaVuSans-51"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-8722"/>
+       <use x="83.789062" xlink:href="#DejaVuSans-51"/>
+       <use x="147.412109" xlink:href="#DejaVuSans-52"/>
+       <use x="211.035156" xlink:href="#DejaVuSans-48"/>
+       <use x="274.658203" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_23">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="48.029688" xlink:href="#m91e16da66c" y="131.824393"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <!-- −3200 -->
+      <g style="fill:#ffffff;" transform="translate(7.2 135.623612)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-8722"/>
+       <use x="83.789062" xlink:href="#DejaVuSans-51"/>
+       <use x="147.412109" xlink:href="#DejaVuSans-50"/>
+       <use x="211.035156" xlink:href="#DejaVuSans-48"/>
+       <use x="274.658203" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_24">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="48.029688" xlink:href="#m91e16da66c" y="109.817715"/>
+      </g>
+     </g>
+     <g id="text_22">
+      <!-- −3000 -->
+      <g style="fill:#ffffff;" transform="translate(7.2 113.616934)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-8722"/>
+       <use x="83.789062" xlink:href="#DejaVuSans-51"/>
+       <use x="147.412109" xlink:href="#DejaVuSans-48"/>
+       <use x="211.035156" xlink:href="#DejaVuSans-48"/>
+       <use x="274.658203" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_25">
+    <path clip-path="url(#p1c4943ca8d)" d="M 64.837642 161.076541 
+L 67.188405 161.263636 
+L 69.539168 158.775854 
+L 71.889931 158.871584 
+L 74.240694 155.695743 
+L 76.591456 155.759183 
+L 78.942219 153.7211 
+L 81.292982 153.455889 
+L 83.643745 140.927812 
+L 85.994508 140.831311 
+L 88.345271 140.95527 
+L 90.696034 140.406499 
+L 93.046797 140.559262 
+L 95.397559 139.121737 
+L 97.748322 134.332279 
+L 100.099085 134.373487 
+L 102.449848 134.279968 
+L 104.800611 131.400548 
+L 107.151374 131.509116 
+L 111.8529 131.118147 
+L 114.203662 130.297156 
+L 121.255951 130.391113 
+L 123.606714 130.682503 
+L 125.957477 130.107152 
+L 128.30824 127.362548 
+L 130.659003 127.477653 
+L 133.009765 127.247477 
+L 135.360528 124.692072 
+L 137.711291 123.948413 
+L 140.062054 124.013179 
+L 142.412817 123.738511 
+L 144.76358 123.849766 
+L 147.114343 124.103876 
+L 149.465105 124.200576 
+L 156.517394 123.590719 
+L 161.21892 123.88763 
+L 170.621971 124.267854 
+L 172.972734 123.11503 
+L 177.67426 123.217191 
+L 187.077311 123.236152 
+L 191.778837 123.506583 
+L 194.1296 123.140631 
+L 196.480363 121.199282 
+L 198.831126 120.762703 
+L 203.532652 120.766385 
+L 205.883414 119.996601 
+L 208.234177 119.748053 
+L 210.58494 119.807072 
+L 212.935703 119.479443 
+L 215.286466 119.471115 
+L 217.637229 119.094101 
+L 219.987992 119.167095 
+L 224.689517 119.558227 
+L 234.092569 119.28173 
+L 236.443332 119.341174 
+L 241.144858 119.022613 
+L 245.846383 119.049466 
+L 248.197146 119.190915 
+L 250.547909 119.04705 
+L 252.898672 118.124508 
+L 262.301723 118.057361 
+L 267.003249 117.351657 
+L 269.354012 116.267572 
+L 271.704775 116.451681 
+L 281.107826 116.506997 
+L 283.458589 116.791751 
+L 285.809352 115.478432 
+L 288.160115 114.551108 
+L 290.510878 113.907679 
+L 297.563167 113.79123 
+L 302.264692 113.880566 
+L 304.615455 114.15237 
+L 306.966218 114.083184 
+L 311.667744 114.10344 
+L 314.018507 113.812007 
+L 318.720032 113.870868 
+L 321.070795 113.660142 
+L 328.123084 113.772932 
+L 332.82461 113.187483 
+L 335.175372 113.234879 
+L 339.876898 112.166361 
+L 342.227661 112.062171 
+L 349.27995 112.353994 
+L 351.630713 112.398473 
+L 353.981475 111.800347 
+L 356.332238 111.961955 
+L 361.033764 110.058746 
+L 363.384527 109.283326 
+L 370.436816 109.315614 
+L 372.787578 108.66192 
+L 375.138341 108.403176 
+L 377.489104 104.094152 
+L 379.839867 103.85705 
+L 382.19063 103.826519 
+L 389.242919 103.257764 
+L 391.593681 103.381398 
+L 393.944444 102.758752 
+L 396.295207 102.808444 
+L 398.64597 102.552302 
+L 400.996733 102.536364 
+L 400.996733 102.536364 
+" style="fill:none;stroke:#008000;stroke-linecap:square;stroke-width:1.5;"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 48.029688 164.2 
+L 48.029688 99.6 
+" style="fill:none;stroke:#ffffff;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 417.804688 164.2 
+L 417.804688 99.6 
+" style="fill:none;stroke:#ffffff;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 48.029687 164.2 
+L 417.804688 164.2 
+" style="fill:none;stroke:#ffffff;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 48.029687 99.6 
+L 417.804688 99.6 
+" style="fill:none;stroke:#ffffff;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"/>
+   </g>
+   <g id="legend_2">
+    <g id="patch_13">
+     <path d="M 357.017187 122.278125 
+L 410.804688 122.278125 
+Q 412.804688 122.278125 412.804688 120.278125 
+L 412.804688 106.6 
+Q 412.804688 104.6 410.804688 104.6 
+L 357.017187 104.6 
+Q 355.017187 104.6 355.017187 106.6 
+L 355.017187 120.278125 
+Q 355.017187 122.278125 357.017187 122.278125 
+z
+" style="opacity:0.8;stroke:#cccccc;stroke-linejoin:miter;"/>
+    </g>
+    <g id="line2d_26">
+     <path d="M 359.017187 112.698437 
+L 379.017187 112.698437 
+" style="fill:none;stroke:#008000;stroke-linecap:square;stroke-width:1.5;"/>
+    </g>
+    <g id="line2d_27"/>
+    <g id="text_23">
+     <!-- MAE -->
+     <g style="fill:#ffffff;" transform="translate(387.017187 116.198437)scale(0.1 -0.1)">
+      <defs>
+       <path d="M 9.8125 72.90625 
+L 24.515625 72.90625 
+L 43.109375 23.296875 
+L 61.8125 72.90625 
+L 76.515625 72.90625 
+L 76.515625 0 
+L 66.890625 0 
+L 66.890625 64.015625 
+L 48.09375 14.015625 
+L 38.1875 14.015625 
+L 19.390625 64.015625 
+L 19.390625 0 
+L 9.8125 0 
+z
+" id="DejaVuSans-77"/>
+       <path d="M 34.1875 63.1875 
+L 20.796875 26.90625 
+L 47.609375 26.90625 
+z
+M 28.609375 72.90625 
+L 39.796875 72.90625 
+L 67.578125 0 
+L 57.328125 0 
+L 50.6875 18.703125 
+L 17.828125 18.703125 
+L 11.1875 0 
+L 0.78125 0 
+z
+" id="DejaVuSans-65"/>
+       <path d="M 9.8125 72.90625 
+L 55.90625 72.90625 
+L 55.90625 64.59375 
+L 19.671875 64.59375 
+L 19.671875 43.015625 
+L 54.390625 43.015625 
+L 54.390625 34.71875 
+L 19.671875 34.71875 
+L 19.671875 8.296875 
+L 56.78125 8.296875 
+L 56.78125 0 
+L 9.8125 0 
+z
+" id="DejaVuSans-69"/>
+      </defs>
+      <use xlink:href="#DejaVuSans-77"/>
+      <use x="86.279297" xlink:href="#DejaVuSans-65"/>
+      <use x="154.6875" xlink:href="#DejaVuSans-69"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_14">
+    <path d="M 48.029688 256.6 
+L 417.804688 256.6 
+L 417.804688 192 
+L 48.029688 192 
+z
+"/>
+   </g>
+   <g id="matplotlib.axis_5">
+    <g id="xtick_17">
+     <g id="line2d_28">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="62.486879" xlink:href="#mfd6086bced" y="256.6"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <!-- 0 -->
+      <g style="fill:#ffffff;" transform="translate(59.305629 271.198437)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_29">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="109.502137" xlink:href="#mfd6086bced" y="256.6"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <!-- 20 -->
+      <g style="fill:#ffffff;" transform="translate(103.139637 271.198437)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-50"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_19">
+     <g id="line2d_30">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="156.517394" xlink:href="#mfd6086bced" y="256.6"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <!-- 40 -->
+      <g style="fill:#ffffff;" transform="translate(150.154894 271.198437)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-52"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_31">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="203.532652" xlink:href="#mfd6086bced" y="256.6"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <!-- 60 -->
+      <g style="fill:#ffffff;" transform="translate(197.170152 271.198437)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-54"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_21">
+     <g id="line2d_32">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="250.547909" xlink:href="#mfd6086bced" y="256.6"/>
+      </g>
+     </g>
+     <g id="text_28">
+      <!-- 80 -->
+      <g style="fill:#ffffff;" transform="translate(244.185409 271.198437)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-56"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_22">
+     <g id="line2d_33">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="297.563167" xlink:href="#mfd6086bced" y="256.6"/>
+      </g>
+     </g>
+     <g id="text_29">
+      <!-- 100 -->
+      <g style="fill:#ffffff;" transform="translate(288.019417 271.198437)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-49"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-48"/>
+       <use x="127.246094" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_23">
+     <g id="line2d_34">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="344.578424" xlink:href="#mfd6086bced" y="256.6"/>
+      </g>
+     </g>
+     <g id="text_30">
+      <!-- 120 -->
+      <g style="fill:#ffffff;" transform="translate(335.034674 271.198437)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-49"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-50"/>
+       <use x="127.246094" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_24">
+     <g id="line2d_35">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="391.593681" xlink:href="#mfd6086bced" y="256.6"/>
+      </g>
+     </g>
+     <g id="text_31">
+      <!-- 140 -->
+      <g style="fill:#ffffff;" transform="translate(382.049931 271.198437)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-49"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-52"/>
+       <use x="127.246094" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6">
+    <g id="ytick_6">
+     <g id="line2d_36">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="48.029688" xlink:href="#m91e16da66c" y="242.034935"/>
+      </g>
+     </g>
+     <g id="text_32">
+      <!-- −4250 -->
+      <g style="fill:#ffffff;" transform="translate(7.2 245.834154)scale(0.1 -0.1)">
+       <defs>
+        <path d="M 10.796875 72.90625 
+L 49.515625 72.90625 
+L 49.515625 64.59375 
+L 19.828125 64.59375 
+L 19.828125 46.734375 
+Q 21.96875 47.46875 24.109375 47.828125 
+Q 26.265625 48.1875 28.421875 48.1875 
+Q 40.625 48.1875 47.75 41.5 
+Q 54.890625 34.8125 54.890625 23.390625 
+Q 54.890625 11.625 47.5625 5.09375 
+Q 40.234375 -1.421875 26.90625 -1.421875 
+Q 22.3125 -1.421875 17.546875 -0.640625 
+Q 12.796875 0.140625 7.71875 1.703125 
+L 7.71875 11.625 
+Q 12.109375 9.234375 16.796875 8.0625 
+Q 21.484375 6.890625 26.703125 6.890625 
+Q 35.15625 6.890625 40.078125 11.328125 
+Q 45.015625 15.765625 45.015625 23.390625 
+Q 45.015625 31 40.078125 35.4375 
+Q 35.15625 39.890625 26.703125 39.890625 
+Q 22.75 39.890625 18.8125 39.015625 
+Q 14.890625 38.140625 10.796875 36.28125 
+z
+" id="DejaVuSans-53"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-8722"/>
+       <use x="83.789062" xlink:href="#DejaVuSans-52"/>
+       <use x="147.412109" xlink:href="#DejaVuSans-50"/>
+       <use x="211.035156" xlink:href="#DejaVuSans-53"/>
+       <use x="274.658203" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_37">
+      <g>
+       <use style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;" x="48.029688" xlink:href="#m91e16da66c" y="216.485668"/>
+      </g>
+     </g>
+     <g id="text_33">
+      <!-- −4000 -->
+      <g style="fill:#ffffff;" transform="translate(7.2 220.284887)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-8722"/>
+       <use x="83.789062" xlink:href="#DejaVuSans-52"/>
+       <use x="147.412109" xlink:href="#DejaVuSans-48"/>
+       <use x="211.035156" xlink:href="#DejaVuSans-48"/>
+       <use x="274.658203" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_38">
+    <path clip-path="url(#p7134501ea5)" d="M 64.837642 253.33208 
+L 67.188405 253.663636 
+L 69.539168 250.154694 
+L 71.889931 250.215042 
+L 74.240694 245.464182 
+L 76.591456 245.598373 
+L 78.942219 244.614537 
+L 81.292982 244.257604 
+L 83.643745 234.882815 
+L 88.345271 234.961708 
+L 90.696034 234.743986 
+L 93.046797 234.901745 
+L 95.397559 232.995672 
+L 97.748322 228.767415 
+L 102.449848 228.877614 
+L 104.800611 226.777242 
+L 107.151374 226.894701 
+L 109.502137 226.699649 
+L 111.8529 226.63892 
+L 114.203662 225.37724 
+L 116.554425 225.383522 
+L 118.905188 225.268607 
+L 121.255951 225.335709 
+L 123.606714 225.578132 
+L 125.957477 225.241548 
+L 128.30824 222.801421 
+L 130.659003 222.838374 
+L 133.009765 222.729002 
+L 135.360528 219.575147 
+L 137.711291 219.17843 
+L 140.062054 219.200069 
+L 142.412817 219.108603 
+L 144.76358 219.17216 
+L 149.465105 219.423457 
+L 151.815868 218.566126 
+L 161.21892 218.586581 
+L 168.271208 218.962229 
+L 170.621971 218.779001 
+L 172.972734 217.745346 
+L 182.375786 217.925181 
+L 184.726549 218.161591 
+L 187.077311 218.178366 
+L 191.778837 218.515171 
+L 194.1296 218.279102 
+L 196.480363 216.141119 
+L 198.831126 215.653375 
+L 201.181889 215.69263 
+L 203.532652 215.844189 
+L 205.883414 215.298824 
+L 208.234177 215.209895 
+L 210.58494 215.381676 
+L 212.935703 214.343313 
+L 215.286466 214.434786 
+L 217.637229 214.294139 
+L 219.987992 214.37062 
+L 224.689517 214.751165 
+L 227.04028 214.617999 
+L 234.092569 214.697898 
+L 236.443332 214.806725 
+L 241.144858 214.570459 
+L 245.846383 214.575167 
+L 248.197146 214.809893 
+L 250.547909 214.677826 
+L 252.898672 213.970023 
+L 255.249435 213.524193 
+L 259.950961 213.484273 
+L 262.301723 213.512904 
+L 264.652486 213.032426 
+L 267.003249 213.020289 
+L 269.354012 212.291485 
+L 271.704775 212.470895 
+L 274.055538 212.157954 
+L 278.757064 212.393576 
+L 283.458589 211.924184 
+L 288.160115 209.549876 
+L 290.510878 208.701506 
+L 292.861641 208.778203 
+L 297.563167 208.799492 
+L 302.264692 208.92482 
+L 306.966218 208.732649 
+L 309.316981 208.715203 
+L 311.667744 208.483312 
+L 314.018507 208.031433 
+L 318.720032 208.099937 
+L 323.421558 208.053382 
+L 328.123084 208.135652 
+L 330.473847 207.711911 
+L 332.82461 207.554821 
+L 335.175372 207.647384 
+L 339.876898 206.353324 
+L 342.227661 206.267486 
+L 351.630713 206.770509 
+L 353.981475 206.493843 
+L 356.332238 206.636444 
+L 358.683001 205.219561 
+L 361.033764 204.214683 
+L 363.384527 203.04722 
+L 370.436816 203.038883 
+L 372.787578 202.419861 
+L 375.138341 202.113351 
+L 377.489104 196.780804 
+L 379.839867 196.619661 
+L 382.19063 196.627241 
+L 384.541393 196.308406 
+L 386.892156 196.254418 
+L 389.242919 195.763501 
+L 391.593681 195.787458 
+L 398.64597 195.053451 
+L 400.996733 194.936364 
+L 400.996733 194.936364 
+" style="fill:none;stroke:#0000ff;stroke-linecap:square;stroke-width:1.5;"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 48.029688 256.6 
+L 48.029688 192 
+" style="fill:none;stroke:#ffffff;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 417.804688 256.6 
+L 417.804688 192 
+" style="fill:none;stroke:#ffffff;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 48.029687 256.6 
+L 417.804688 256.6 
+" style="fill:none;stroke:#ffffff;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 48.029687 192 
+L 417.804688 192 
+" style="fill:none;stroke:#ffffff;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"/>
+   </g>
+   <g id="legend_3">
+    <g id="patch_19">
+     <path d="M 350.560938 214.678125 
+L 410.804688 214.678125 
+Q 412.804688 214.678125 412.804688 212.678125 
+L 412.804688 199 
+Q 412.804688 197 410.804688 197 
+L 350.560938 197 
+Q 348.560938 197 348.560938 199 
+L 348.560938 212.678125 
+Q 348.560938 214.678125 350.560938 214.678125 
+z
+" style="opacity:0.8;stroke:#cccccc;stroke-linejoin:miter;"/>
+    </g>
+    <g id="line2d_39">
+     <path d="M 352.560938 205.098437 
+L 372.560938 205.098437 
+" style="fill:none;stroke:#0000ff;stroke-linecap:square;stroke-width:1.5;"/>
+    </g>
+    <g id="line2d_40"/>
+    <g id="text_34">
+     <!-- RMSE -->
+     <g style="fill:#ffffff;" transform="translate(380.560938 208.598437)scale(0.1 -0.1)">
+      <defs>
+       <path d="M 44.390625 34.1875 
+Q 47.5625 33.109375 50.5625 29.59375 
+Q 53.5625 26.078125 56.59375 19.921875 
+L 66.609375 0 
+L 56 0 
+L 46.6875 18.703125 
+Q 43.0625 26.03125 39.671875 28.421875 
+Q 36.28125 30.8125 30.421875 30.8125 
+L 19.671875 30.8125 
+L 19.671875 0 
+L 9.8125 0 
+L 9.8125 72.90625 
+L 32.078125 72.90625 
+Q 44.578125 72.90625 50.734375 67.671875 
+Q 56.890625 62.453125 56.890625 51.90625 
+Q 56.890625 45.015625 53.6875 40.46875 
+Q 50.484375 35.9375 44.390625 34.1875 
+z
+M 19.671875 64.796875 
+L 19.671875 38.921875 
+L 32.078125 38.921875 
+Q 39.203125 38.921875 42.84375 42.21875 
+Q 46.484375 45.515625 46.484375 51.90625 
+Q 46.484375 58.296875 42.84375 61.546875 
+Q 39.203125 64.796875 32.078125 64.796875 
+z
+" id="DejaVuSans-82"/>
+       <path d="M 53.515625 70.515625 
+L 53.515625 60.890625 
+Q 47.90625 63.578125 42.921875 64.890625 
+Q 37.9375 66.21875 33.296875 66.21875 
+Q 25.25 66.21875 20.875 63.09375 
+Q 16.5 59.96875 16.5 54.203125 
+Q 16.5 49.359375 19.40625 46.890625 
+Q 22.3125 44.4375 30.421875 42.921875 
+L 36.375 41.703125 
+Q 47.40625 39.59375 52.65625 34.296875 
+Q 57.90625 29 57.90625 20.125 
+Q 57.90625 9.515625 50.796875 4.046875 
+Q 43.703125 -1.421875 29.984375 -1.421875 
+Q 24.8125 -1.421875 18.96875 -0.25 
+Q 13.140625 0.921875 6.890625 3.21875 
+L 6.890625 13.375 
+Q 12.890625 10.015625 18.65625 8.296875 
+Q 24.421875 6.59375 29.984375 6.59375 
+Q 38.421875 6.59375 43.015625 9.90625 
+Q 47.609375 13.234375 47.609375 19.390625 
+Q 47.609375 24.75 44.3125 27.78125 
+Q 41.015625 30.8125 33.5 32.328125 
+L 27.484375 33.5 
+Q 16.453125 35.6875 11.515625 40.375 
+Q 6.59375 45.0625 6.59375 53.421875 
+Q 6.59375 63.09375 13.40625 68.65625 
+Q 20.21875 74.21875 32.171875 74.21875 
+Q 37.3125 74.21875 42.625 73.28125 
+Q 47.953125 72.359375 53.515625 70.515625 
+z
+" id="DejaVuSans-83"/>
+      </defs>
+      <use xlink:href="#DejaVuSans-82"/>
+      <use x="69.482422" xlink:href="#DejaVuSans-77"/>
+      <use x="155.761719" xlink:href="#DejaVuSans-83"/>
+      <use x="219.238281" xlink:href="#DejaVuSans-69"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8917a0394d">
+   <rect height="64.6" width="369.775" x="48.029688" y="7.2"/>
+  </clipPath>
+  <clipPath id="p1c4943ca8d">
+   <rect height="64.6" width="369.775" x="48.029688" y="99.6"/>
+  </clipPath>
+  <clipPath id="p7134501ea5">
+   <rect height="64.6" width="369.775" x="48.029688" y="192"/>
+  </clipPath>
+ </defs>
+</svg>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Q14.-&#27424;&#25613;&#20516;&#23550;&#24540;&#65288;2/2&#65289;&#65306;&#20195;&#34920;&#20516;&#35036;&#23436;">Q14. &#27424;&#25613;&#20516;&#23550;&#24540;&#65288;2/2&#65289;&#65306;&#20195;&#34920;&#20516;&#35036;&#23436;<a class="anchor-link" href="#Q14.-&#27424;&#25613;&#20516;&#23550;&#24540;&#65288;2/2&#65289;&#65306;&#20195;&#34920;&#20516;&#35036;&#23436;">&#182;</a></h3><p>Q7では欠損値を含む行を削除することで，欠損値に対応をした（リストワイズ除去）．この方法は学習・評価に用いるデータ数が少なくなるという欠点がある．また，欠損値を含むデータに対する予測を行うことができない．この問題に対応するために，欠損値をそれを含む列のデータの中央値で埋め，再度線形回帰モデルの学習・評価を行え．</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[154]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">listings_df_v4_cp</span>
 </pre></div>
 
     </div>
@@ -16855,6 +18930,749 @@ RMSE平均	:  -3879.153267961671
       <th>host_acceptance_rate</th>
       <th>host_is_superhost</th>
       <th>host_listings_count</th>
+      <th>host_has_profile_pic</th>
+      <th>host_identity_verified</th>
+      <th>is_location_exact</th>
+      <th>accommodates</th>
+      <th>bathrooms</th>
+      <th>bedrooms</th>
+      <th>...</th>
+      <th>"Family/kid friendly"</th>
+      <th>"Bath towel"</th>
+      <th>Breakfast</th>
+      <th>Wifi</th>
+      <th>Crib</th>
+      <th>Dryer</th>
+      <th>"Accessible-height toilet"</th>
+      <th>"Memory foam mattress"</th>
+      <th>"Electric profiling bed"</th>
+      <th>"Cleaning before checkout"</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>3.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1.0</td>
+      <td>0.85</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1.0</td>
+      <td>0.80</td>
+      <td>0</td>
+      <td>2.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1.0</td>
+      <td>0.92</td>
+      <td>1</td>
+      <td>3.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1.0</td>
+      <td>0.80</td>
+      <td>0</td>
+      <td>2.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>14710</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>8</td>
+      <td>1.0</td>
+      <td>3.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>14711</th>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>0</td>
+      <td>76.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>14712</th>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>0</td>
+      <td>3.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>14713</th>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>0</td>
+      <td>3.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>14714</th>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>0</td>
+      <td>3.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>14715 rows × 293 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[155]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># This does not work</span>
+<span class="c1"># listings_df_v4_cp.fillna(listings_df_v4_cp.median(axis=1, numeric_only=True), inplace=True)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[156]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">listings_df_v4_cp</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">listings_df_v4_cp</span><span class="o">.</span><span class="n">median</span><span class="p">(),</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[157]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">listings_df_v4_cp</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[157]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>host_response_rate</th>
+      <th>host_acceptance_rate</th>
+      <th>host_is_superhost</th>
+      <th>host_listings_count</th>
+      <th>host_has_profile_pic</th>
+      <th>host_identity_verified</th>
+      <th>is_location_exact</th>
+      <th>accommodates</th>
+      <th>bathrooms</th>
+      <th>bedrooms</th>
+      <th>...</th>
+      <th>"Family/kid friendly"</th>
+      <th>"Bath towel"</th>
+      <th>Breakfast</th>
+      <th>Wifi</th>
+      <th>Crib</th>
+      <th>Dryer</th>
+      <th>"Accessible-height toilet"</th>
+      <th>"Memory foam mattress"</th>
+      <th>"Electric profiling bed"</th>
+      <th>"Cleaning before checkout"</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>0</td>
+      <td>3.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1.0</td>
+      <td>0.85</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1.0</td>
+      <td>0.80</td>
+      <td>0</td>
+      <td>2.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1.0</td>
+      <td>0.92</td>
+      <td>1</td>
+      <td>3.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1.0</td>
+      <td>0.80</td>
+      <td>0</td>
+      <td>2.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>14710</th>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>8</td>
+      <td>1.0</td>
+      <td>3.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>14711</th>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>0</td>
+      <td>76.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>14712</th>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>0</td>
+      <td>3.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>14713</th>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>0</td>
+      <td>3.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>14714</th>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>0</td>
+      <td>3.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>14715 rows × 293 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[158]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">handle_outLier</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
+    <span class="n">stats</span> <span class="o">=</span> <span class="n">listings_df_v4</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
+    <span class="n">q_1</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">stats</span><span class="p">[</span><span class="s1">&#39;25%&#39;</span><span class="p">])</span>
+    <span class="n">q_3</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">stats</span><span class="p">[</span><span class="s1">&#39;75%&#39;</span><span class="p">])</span>
+
+    <span class="k">return</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">q_1</span> <span class="o">-</span> <span class="p">(</span><span class="n">q_3</span> <span class="o">-</span> <span class="n">q_1</span><span class="p">)</span><span class="o">*</span><span class="mf">1.5</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">q_3</span> <span class="o">+</span> <span class="p">(</span><span class="n">q_3</span> <span class="o">-</span> <span class="n">q_1</span><span class="p">)</span><span class="o">*</span><span class="mf">1.5</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">]</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)]</span>
+
+<span class="k">def</span> <span class="nf">is_outlier</span><span class="p">(</span><span class="n">price</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">price</span> <span class="o">&lt;</span> <span class="n">q_1</span> <span class="o">-</span> <span class="p">(</span><span class="n">q_3</span> <span class="o">-</span> <span class="n">q_1</span><span class="p">)</span><span class="o">*</span><span class="mf">1.5</span> <span class="ow">or</span> <span class="n">price</span> <span class="o">&gt;</span> <span class="n">q_3</span> <span class="o">+</span> <span class="p">(</span><span class="n">q_3</span> <span class="o">-</span> <span class="n">q_1</span><span class="p">)</span><span class="o">*</span><span class="mf">1.5</span> <span class="ow">or</span> <span class="n">price</span> <span class="o">==</span> <span class="mi">0</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[159]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">listings_df_v8</span> <span class="o">=</span> <span class="n">exclude_biased_data</span><span class="p">(</span><span class="n">handle_outLier</span><span class="p">(</span><span class="n">listings_df_v4_cp</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[160]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">listings_df_v8</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[160]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>host_response_rate</th>
+      <th>host_acceptance_rate</th>
+      <th>host_is_superhost</th>
+      <th>host_listings_count</th>
       <th>host_identity_verified</th>
       <th>is_location_exact</th>
       <th>accommodates</th>
@@ -16862,19 +19680,43 @@ RMSE平均	:  -3879.153267961671
       <th>bedrooms</th>
       <th>beds</th>
       <th>...</th>
-      <th>"Cable TV"</th>
-      <th>"No stairs or steps to enter"</th>
-      <th>"24-hour check-in"</th>
-      <th>"Free street parking"</th>
-      <th>Shampoo</th>
-      <th>"Smoke alarm"</th>
-      <th>Elevator</th>
-      <th>Iron</th>
-      <th>"Indoor fireplace"</th>
-      <th>"Building staff"</th>
+      <th>"Handheld shower head"</th>
+      <th>Kitchen</th>
+      <th>"Extra pillows and blankets"</th>
+      <th>"Hot water"</th>
+      <th>"Family/kid friendly"</th>
+      <th>Breakfast</th>
+      <th>Wifi</th>
+      <th>Crib</th>
+      <th>Dryer</th>
+      <th>"Cleaning before checkout"</th>
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <th>0</th>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>0</td>
+      <td>3.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
     <tr>
       <th>1</th>
       <td>1.0</td>
@@ -16889,14 +19731,14 @@ RMSE平均	:  -3879.153267961671
       <td>2.0</td>
       <td>...</td>
       <td>0</td>
-      <td>0</td>
+      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>1</td>
-      <td>1</td>
       <td>0</td>
       <td>1</td>
       <td>0</td>
+      <td>1</td>
       <td>0</td>
     </tr>
     <tr>
@@ -16913,13 +19755,13 @@ RMSE平均	:  -3879.153267961671
       <td>1.0</td>
       <td>...</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
     </tr>
@@ -16937,13 +19779,13 @@ RMSE平均	:  -3879.153267961671
       <td>1.0</td>
       <td>...</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
       <td>1</td>
       <td>0</td>
       <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
     </tr>
@@ -16961,37 +19803,13 @@ RMSE平均	:  -3879.153267961671
       <td>1.0</td>
       <td>...</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>1.0</td>
-      <td>0.92</td>
-      <td>1</td>
-      <td>3.0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>3</td>
-      <td>1.0</td>
-      <td>2.0</td>
-      <td>2.0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
       <td>1</td>
       <td>0</td>
       <td>1</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
     </tr>
@@ -17020,120 +19838,120 @@ RMSE平均	:  -3879.153267961671
       <td>...</td>
     </tr>
     <tr>
-      <th>14592</th>
-      <td>1.0</td>
-      <td>1.00</td>
-      <td>0</td>
-      <td>13.0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>2</td>
-      <td>4.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>14600</th>
-      <td>1.0</td>
-      <td>1.00</td>
-      <td>0</td>
-      <td>13.0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>2</td>
-      <td>4.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>14611</th>
+      <th>14710</th>
       <td>1.0</td>
       <td>1.00</td>
       <td>0</td>
       <td>0.0</td>
       <td>0</td>
       <td>1</td>
-      <td>2</td>
-      <td>1.5</td>
+      <td>8</td>
       <td>1.0</td>
-      <td>1.0</td>
+      <td>3.0</td>
+      <td>3.0</td>
       <td>...</td>
       <td>0</td>
+      <td>1</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>14711</th>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>0</td>
+      <td>76.0</td>
+      <td>0</td>
       <td>1</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>2.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>14712</th>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>0</td>
+      <td>3.0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>3.0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
     </tr>
     <tr>
-      <th>14614</th>
+      <th>14713</th>
       <td>1.0</td>
       <td>1.00</td>
       <td>0</td>
-      <td>0.0</td>
+      <td>3.0</td>
       <td>0</td>
       <td>1</td>
-      <td>2</td>
-      <td>1.5</td>
+      <td>3</td>
+      <td>1.0</td>
       <td>1.0</td>
       <td>0.0</td>
       <td>...</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>1</td>
-      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
     </tr>
     <tr>
-      <th>14627</th>
+      <th>14714</th>
       <td>1.0</td>
       <td>1.00</td>
       <td>0</td>
-      <td>13.0</td>
+      <td>3.0</td>
       <td>0</td>
       <td>1</td>
-      <td>11</td>
-      <td>4.0</td>
-      <td>4.0</td>
-      <td>5.0</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>3.0</td>
       <td>...</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>1</td>
-      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -17141,7 +19959,7 @@ RMSE平均	:  -3879.153267961671
     </tr>
   </tbody>
 </table>
-<p>6430 rows × 146 columns</p>
+<p>12909 rows × 148 columns</p>
 </div>
 </div>
 
@@ -17151,29 +19969,54 @@ RMSE平均	:  -3879.153267961671
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Q12.-&#30446;&#30340;&#22793;&#25968;&#12392;&#35500;&#26126;&#22793;&#25968;&#12398;&#30456;&#38306;&#20998;&#26512;">Q12. &#30446;&#30340;&#22793;&#25968;&#12392;&#35500;&#26126;&#22793;&#25968;&#12398;&#30456;&#38306;&#20998;&#26512;<a class="anchor-link" href="#Q12.-&#30446;&#30340;&#22793;&#25968;&#12392;&#35500;&#26126;&#22793;&#25968;&#12398;&#30456;&#38306;&#20998;&#26512;">&#182;</a></h3><p>特徴量選択の方法の1つであるフィルター法として，目的変数と説明変数（特徴量）との相関係数が大きいものを優先的に採用する方法がある．相関係数による特徴量選択を行うために，<code>price</code>属性とその他の属性の相関係数を求め，その上位30件を表示せよ．</p>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[161]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">listings_y_v8</span> <span class="o">=</span> <span class="n">listings_df_v8</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">]</span>
+<span class="n">listings_x_v8</span> <span class="o">=</span> <span class="n">listings_df_v8</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;price&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">x_train_v8</span><span class="p">,</span> <span class="n">x_test_v8</span><span class="p">,</span> <span class="n">y_train_v8</span><span class="p">,</span> <span class="n">y_test_v8</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">listings_x_v8</span><span class="p">,</span> <span class="n">listings_y_v8</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.3</span><span class="p">)</span>
+<span class="n">scores_v8</span> <span class="o">=</span> <span class="n">cross_validate</span><span class="p">(</span><span class="n">LinearRegression</span><span class="p">(),</span> <span class="n">x_train_v8</span><span class="p">,</span> <span class="n">y_train_v8</span><span class="p">,</span> <span class="n">scoring</span><span class="o">=</span><span class="n">scoring</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">return_estimator</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[162]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;MAE平均</span><span class="se">\t</span><span class="s1">: &#39;</span><span class="p">,</span> <span class="n">scores_v8</span><span class="p">[</span><span class="s1">&#39;test_neg_mean_absolute_error&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;RMSE平均</span><span class="se">\t</span><span class="s1">: &#39;</span><span class="p">,</span> <span class="n">scores_v8</span><span class="p">[</span><span class="s1">&#39;test_neg_root_mean_squared_error&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>MAE平均	:  -4314.993914880947
+RMSE平均	:  -6141.6501925103275
+</pre>
+</div>
+</div>
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Q13.-&#30456;&#38306;&#20418;&#25968;&#12395;&#12424;&#12427;&#29305;&#24500;&#37327;&#36984;&#25246;">Q13. &#30456;&#38306;&#20418;&#25968;&#12395;&#12424;&#12427;&#29305;&#24500;&#37327;&#36984;&#25246;<a class="anchor-link" href="#Q13.-&#30456;&#38306;&#20418;&#25968;&#12395;&#12424;&#12427;&#29305;&#24500;&#37327;&#36984;&#25246;">&#182;</a></h3><p><code>listing_df_v7</code>における<code>price</code>値の予測モデルの構築において，相関係数に基づく特徴量選択を行い，相関係数が大きい上位k件の特徴量を用いて線形回帰モデルを構築することを考える．選択する特徴量の個数をk=1から1ずつ増やしていった際の，学習時間，MAE，RMSEの変化を折れ線グラフで図示せよ．</p>
 
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Q14.-&#27424;&#25613;&#20516;&#23550;&#24540;&#65288;2/2&#65289;&#65306;&#20195;&#34920;&#20516;&#35036;&#23436;">Q14. &#27424;&#25613;&#20516;&#23550;&#24540;&#65288;2/2&#65289;&#65306;&#20195;&#34920;&#20516;&#35036;&#23436;<a class="anchor-link" href="#Q14.-&#27424;&#25613;&#20516;&#23550;&#24540;&#65288;2/2&#65289;&#65306;&#20195;&#34920;&#20516;&#35036;&#23436;">&#182;</a></h3><p>Q7では欠損値を含む行を削除することで，欠損値に対応をした（リストワイズ除去）．この方法は学習・評価に用いるデータ数が少なくなるという欠点がある．また，欠損値を含むデータに対する予測を行うことができない．この問題に対応するために，欠損値をそれを含む列のデータの中央値で埋め，再度線形回帰モデルの学習・評価を行え．</p>
-
-</div>
-</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -17182,6 +20025,294 @@ RMSE平均	:  -3879.153267961671
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[173]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># ロジスティック回帰</span>
+<span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LogisticRegression</span>
+<span class="c1"># SVM</span>
+<span class="kn">from</span> <span class="nn">sklearn.svm</span> <span class="kn">import</span> <span class="n">LinearSVC</span>
+<span class="c1"># 決定木</span>
+<span class="kn">from</span> <span class="nn">sklearn.tree</span> <span class="kn">import</span>  <span class="n">DecisionTreeClassifier</span>
+<span class="c1"># k-NN</span>
+<span class="kn">from</span> <span class="nn">sklearn.neighbors</span> <span class="kn">import</span>  <span class="n">KNeighborsClassifier</span>
+<span class="c1"># ランダムフォレスト</span>
+<span class="kn">from</span> <span class="nn">sklearn.ensemble</span> <span class="kn">import</span> <span class="n">RandomForestClassifier</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[164]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">models</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="n">LogisticRegression</span><span class="p">(),</span>
+    <span class="n">LinearSVC</span><span class="p">(),</span>
+    <span class="n">DecisionTreeClassifier</span><span class="p">(),</span>
+    <span class="n">KNeighborsClassifier</span><span class="p">(</span><span class="n">n_neighbors</span><span class="o">=</span><span class="mi">6</span><span class="p">),</span>
+    <span class="n">RandomForestClassifier</span><span class="p">()</span>
+<span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[165]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">best_score</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">best_method</span> <span class="o">=</span><span class="s1">&#39;&#39;</span>
+<span class="n">scoring</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s1">&#39;r2&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;neg_mean_absolute_error&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;neg_root_mean_squared_error&#39;</span>
+<span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[177]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plot</span>
+
+<span class="n">corrs_v8</span> <span class="o">=</span> <span class="n">listings_df_v8</span><span class="o">.</span><span class="n">corr</span><span class="p">()[</span><span class="s1">&#39;price&#39;</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">show_result</span><span class="p">(</span><span class="n">model</span><span class="p">):</span>
+    <span class="n">time_arr</span><span class="p">,</span> <span class="n">r2_arr</span><span class="p">,</span> <span class="n">mae_arr</span><span class="p">,</span> <span class="n">rmse_arr</span> <span class="o">=</span> <span class="p">[],</span> <span class="p">[],</span> <span class="p">[],</span> <span class="p">[]</span>
+    
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">31</span><span class="p">):</span>
+        <span class="n">score</span> <span class="o">=</span> <span class="n">validate</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">corrs_v8</span><span class="p">,</span> <span class="n">model</span><span class="p">)</span>
+        <span class="n">time_arr</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">score</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;score_time&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>
+        <span class="n">r2_arr</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">score</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;test_r2&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>
+        <span class="n">mae_arr</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">score</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;test_neg_mean_absolute_error&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>
+        <span class="n">rmse_arr</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">score</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;test_neg_root_mean_squared_error&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>
+
+    <span class="n">fig</span> <span class="o">=</span> <span class="n">plot</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+    <span class="n">ax_time</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">ax_r2</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">ax_mae</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
+    <span class="n">ax_rmse</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
+
+    <span class="n">ax_time</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">corrs_v8</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">time_arr</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;Time&#39;</span><span class="p">)</span>
+    <span class="n">ax_r2</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">corrs_v8</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">r2_arr</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;yellow&#39;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;r2&#39;</span><span class="p">)</span>
+    <span class="n">ax_mae</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">corrs_v8</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">mae_arr</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;green&#39;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;MAE&#39;</span><span class="p">)</span>
+    <span class="n">ax_rmse</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">corrs_v8</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">rmse_arr</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;blue&#39;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;RMSE&#39;</span><span class="p">)</span>
+
+    <span class="n">ax_time</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper right&#39;</span><span class="p">)</span>
+    <span class="n">ax_r2</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper right&#39;</span><span class="p">)</span>
+    <span class="n">ax_mae</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper right&#39;</span><span class="p">)</span>
+    <span class="n">ax_rmse</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper right&#39;</span><span class="p">)</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[174]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">show_result</span><span class="p">(</span><span class="n">LinearSVC</span><span class="p">())</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">KeyboardInterrupt</span>                         Traceback (most recent call last)
+<span class="ansi-green-fg">&lt;ipython-input-174-a6393a4b615f&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-fg">----&gt; 1</span><span class="ansi-red-fg"> </span>show_result<span class="ansi-blue-fg">(</span>LinearSVC<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">)</span>
+
+<span class="ansi-green-fg">&lt;ipython-input-170-4155edc32617&gt;</span> in <span class="ansi-cyan-fg">show_result</span><span class="ansi-blue-fg">(model)</span>
+<span class="ansi-green-intense-fg ansi-bold">      8</span> 
+<span class="ansi-green-intense-fg ansi-bold">      9</span>     <span class="ansi-green-fg">for</span> i <span class="ansi-green-fg">in</span> range<span class="ansi-blue-fg">(</span><span class="ansi-cyan-fg">1</span><span class="ansi-blue-fg">,</span> len<span class="ansi-blue-fg">(</span>corrs_v8<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">-</span><span class="ansi-cyan-fg">1</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-fg">---&gt; 10</span><span class="ansi-red-fg">         </span>score <span class="ansi-blue-fg">=</span> validate<span class="ansi-blue-fg">(</span>i<span class="ansi-blue-fg">,</span> corrs_v8<span class="ansi-blue-fg">,</span> model<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">     11</span>         time_arr<span class="ansi-blue-fg">.</span>append<span class="ansi-blue-fg">(</span>score<span class="ansi-blue-fg">.</span>get<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#39;score_time&#39;</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">.</span>mean<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">     12</span>         r2_arr<span class="ansi-blue-fg">.</span>append<span class="ansi-blue-fg">(</span>score<span class="ansi-blue-fg">.</span>get<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#39;test_r2&#39;</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">.</span>mean<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">)</span>
+
+<span class="ansi-green-fg">&lt;ipython-input-150-92b64d077bdf&gt;</span> in <span class="ansi-cyan-fg">validate</span><span class="ansi-blue-fg">(features, corrs, model)</span>
+<span class="ansi-green-intense-fg ansi-bold">     14</span>     <span class="ansi-green-fg">if</span> <span class="ansi-green-fg">not</span> model<span class="ansi-blue-fg">:</span>
+<span class="ansi-green-intense-fg ansi-bold">     15</span>         model <span class="ansi-blue-fg">=</span> LinearRegression<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-fg">---&gt; 16</span><span class="ansi-red-fg">     </span><span class="ansi-green-fg">return</span> cross_validate<span class="ansi-blue-fg">(</span>model<span class="ansi-blue-fg">,</span> x_train_v6<span class="ansi-blue-fg">[</span>selected<span class="ansi-blue-fg">.</span>index<span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">,</span> y_train_v6<span class="ansi-blue-fg">,</span> scoring<span class="ansi-blue-fg">=</span>scoring<span class="ansi-blue-fg">,</span> cv<span class="ansi-blue-fg">=</span><span class="ansi-cyan-fg">5</span><span class="ansi-blue-fg">,</span> return_estimator<span class="ansi-blue-fg">=</span><span class="ansi-green-fg">True</span><span class="ansi-blue-fg">)</span>
+
+<span class="ansi-green-fg">~/rabhare6it/data-science-exercise/.venv/lib/python3.6/site-packages/sklearn/utils/validation.py</span> in <span class="ansi-cyan-fg">inner_f</span><span class="ansi-blue-fg">(*args, **kwargs)</span>
+<span class="ansi-green-intense-fg ansi-bold">     70</span>                           FutureWarning)
+<span class="ansi-green-intense-fg ansi-bold">     71</span>         kwargs<span class="ansi-blue-fg">.</span>update<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">{</span>k<span class="ansi-blue-fg">:</span> arg <span class="ansi-green-fg">for</span> k<span class="ansi-blue-fg">,</span> arg <span class="ansi-green-fg">in</span> zip<span class="ansi-blue-fg">(</span>sig<span class="ansi-blue-fg">.</span>parameters<span class="ansi-blue-fg">,</span> args<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">}</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-fg">---&gt; 72</span><span class="ansi-red-fg">         </span><span class="ansi-green-fg">return</span> f<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">**</span>kwargs<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">     73</span>     <span class="ansi-green-fg">return</span> inner_f
+<span class="ansi-green-intense-fg ansi-bold">     74</span> 
+
+<span class="ansi-green-fg">~/rabhare6it/data-science-exercise/.venv/lib/python3.6/site-packages/sklearn/model_selection/_validation.py</span> in <span class="ansi-cyan-fg">cross_validate</span><span class="ansi-blue-fg">(estimator, X, y, groups, scoring, cv, n_jobs, verbose, fit_params, pre_dispatch, return_train_score, return_estimator, error_score)</span>
+<span class="ansi-green-intense-fg ansi-bold">    246</span>             return_times<span class="ansi-blue-fg">=</span><span class="ansi-green-fg">True</span><span class="ansi-blue-fg">,</span> return_estimator<span class="ansi-blue-fg">=</span>return_estimator<span class="ansi-blue-fg">,</span>
+<span class="ansi-green-intense-fg ansi-bold">    247</span>             error_score=error_score)
+<span class="ansi-green-fg">--&gt; 248</span><span class="ansi-red-fg">         for train, test in cv.split(X, y, groups))
+</span><span class="ansi-green-intense-fg ansi-bold">    249</span> 
+<span class="ansi-green-intense-fg ansi-bold">    250</span>     zipped_scores <span class="ansi-blue-fg">=</span> list<span class="ansi-blue-fg">(</span>zip<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">*</span>scores<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">)</span>
+
+<span class="ansi-green-fg">~/rabhare6it/data-science-exercise/.venv/lib/python3.6/site-packages/joblib/parallel.py</span> in <span class="ansi-cyan-fg">__call__</span><span class="ansi-blue-fg">(self, iterable)</span>
+<span class="ansi-green-intense-fg ansi-bold">   1030</span>                 self<span class="ansi-blue-fg">.</span>_iterating <span class="ansi-blue-fg">=</span> self<span class="ansi-blue-fg">.</span>_original_iterator <span class="ansi-green-fg">is</span> <span class="ansi-green-fg">not</span> <span class="ansi-green-fg">None</span>
+<span class="ansi-green-intense-fg ansi-bold">   1031</span> 
+<span class="ansi-green-fg">-&gt; 1032</span><span class="ansi-red-fg">             </span><span class="ansi-green-fg">while</span> self<span class="ansi-blue-fg">.</span>dispatch_one_batch<span class="ansi-blue-fg">(</span>iterator<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-intense-fg ansi-bold">   1033</span>                 <span class="ansi-green-fg">pass</span>
+<span class="ansi-green-intense-fg ansi-bold">   1034</span> 
+
+<span class="ansi-green-fg">~/rabhare6it/data-science-exercise/.venv/lib/python3.6/site-packages/joblib/parallel.py</span> in <span class="ansi-cyan-fg">dispatch_one_batch</span><span class="ansi-blue-fg">(self, iterator)</span>
+<span class="ansi-green-intense-fg ansi-bold">    845</span>                 <span class="ansi-green-fg">return</span> <span class="ansi-green-fg">False</span>
+<span class="ansi-green-intense-fg ansi-bold">    846</span>             <span class="ansi-green-fg">else</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-fg">--&gt; 847</span><span class="ansi-red-fg">                 </span>self<span class="ansi-blue-fg">.</span>_dispatch<span class="ansi-blue-fg">(</span>tasks<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    848</span>                 <span class="ansi-green-fg">return</span> <span class="ansi-green-fg">True</span>
+<span class="ansi-green-intense-fg ansi-bold">    849</span> 
+
+<span class="ansi-green-fg">~/rabhare6it/data-science-exercise/.venv/lib/python3.6/site-packages/joblib/parallel.py</span> in <span class="ansi-cyan-fg">_dispatch</span><span class="ansi-blue-fg">(self, batch)</span>
+<span class="ansi-green-intense-fg ansi-bold">    763</span>         <span class="ansi-green-fg">with</span> self<span class="ansi-blue-fg">.</span>_lock<span class="ansi-blue-fg">:</span>
+<span class="ansi-green-intense-fg ansi-bold">    764</span>             job_idx <span class="ansi-blue-fg">=</span> len<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">.</span>_jobs<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-fg">--&gt; 765</span><span class="ansi-red-fg">             </span>job <span class="ansi-blue-fg">=</span> self<span class="ansi-blue-fg">.</span>_backend<span class="ansi-blue-fg">.</span>apply_async<span class="ansi-blue-fg">(</span>batch<span class="ansi-blue-fg">,</span> callback<span class="ansi-blue-fg">=</span>cb<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    766</span>             <span class="ansi-red-fg"># A job can complete so quickly than its callback is</span>
+<span class="ansi-green-intense-fg ansi-bold">    767</span>             <span class="ansi-red-fg"># called before we get here, causing self._jobs to</span>
+
+<span class="ansi-green-fg">~/rabhare6it/data-science-exercise/.venv/lib/python3.6/site-packages/joblib/_parallel_backends.py</span> in <span class="ansi-cyan-fg">apply_async</span><span class="ansi-blue-fg">(self, func, callback)</span>
+<span class="ansi-green-intense-fg ansi-bold">    206</span>     <span class="ansi-green-fg">def</span> apply_async<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">,</span> func<span class="ansi-blue-fg">,</span> callback<span class="ansi-blue-fg">=</span><span class="ansi-green-fg">None</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-intense-fg ansi-bold">    207</span>         <span class="ansi-blue-fg">&#34;&#34;&#34;Schedule a func to be run&#34;&#34;&#34;</span>
+<span class="ansi-green-fg">--&gt; 208</span><span class="ansi-red-fg">         </span>result <span class="ansi-blue-fg">=</span> ImmediateResult<span class="ansi-blue-fg">(</span>func<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    209</span>         <span class="ansi-green-fg">if</span> callback<span class="ansi-blue-fg">:</span>
+<span class="ansi-green-intense-fg ansi-bold">    210</span>             callback<span class="ansi-blue-fg">(</span>result<span class="ansi-blue-fg">)</span>
+
+<span class="ansi-green-fg">~/rabhare6it/data-science-exercise/.venv/lib/python3.6/site-packages/joblib/_parallel_backends.py</span> in <span class="ansi-cyan-fg">__init__</span><span class="ansi-blue-fg">(self, batch)</span>
+<span class="ansi-green-intense-fg ansi-bold">    570</span>         <span class="ansi-red-fg"># Don&#39;t delay the application, to avoid keeping the input</span>
+<span class="ansi-green-intense-fg ansi-bold">    571</span>         <span class="ansi-red-fg"># arguments in memory</span>
+<span class="ansi-green-fg">--&gt; 572</span><span class="ansi-red-fg">         </span>self<span class="ansi-blue-fg">.</span>results <span class="ansi-blue-fg">=</span> batch<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    573</span> 
+<span class="ansi-green-intense-fg ansi-bold">    574</span>     <span class="ansi-green-fg">def</span> get<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+
+<span class="ansi-green-fg">~/rabhare6it/data-science-exercise/.venv/lib/python3.6/site-packages/joblib/parallel.py</span> in <span class="ansi-cyan-fg">__call__</span><span class="ansi-blue-fg">(self)</span>
+<span class="ansi-green-intense-fg ansi-bold">    251</span>         <span class="ansi-green-fg">with</span> parallel_backend<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">.</span>_backend<span class="ansi-blue-fg">,</span> n_jobs<span class="ansi-blue-fg">=</span>self<span class="ansi-blue-fg">.</span>_n_jobs<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-intense-fg ansi-bold">    252</span>             return [func(*args, **kwargs)
+<span class="ansi-green-fg">--&gt; 253</span><span class="ansi-red-fg">                     for func, args, kwargs in self.items]
+</span><span class="ansi-green-intense-fg ansi-bold">    254</span> 
+<span class="ansi-green-intense-fg ansi-bold">    255</span>     <span class="ansi-green-fg">def</span> __reduce__<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+
+<span class="ansi-green-fg">~/rabhare6it/data-science-exercise/.venv/lib/python3.6/site-packages/joblib/parallel.py</span> in <span class="ansi-cyan-fg">&lt;listcomp&gt;</span><span class="ansi-blue-fg">(.0)</span>
+<span class="ansi-green-intense-fg ansi-bold">    251</span>         <span class="ansi-green-fg">with</span> parallel_backend<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">.</span>_backend<span class="ansi-blue-fg">,</span> n_jobs<span class="ansi-blue-fg">=</span>self<span class="ansi-blue-fg">.</span>_n_jobs<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-intense-fg ansi-bold">    252</span>             return [func(*args, **kwargs)
+<span class="ansi-green-fg">--&gt; 253</span><span class="ansi-red-fg">                     for func, args, kwargs in self.items]
+</span><span class="ansi-green-intense-fg ansi-bold">    254</span> 
+<span class="ansi-green-intense-fg ansi-bold">    255</span>     <span class="ansi-green-fg">def</span> __reduce__<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+
+<span class="ansi-green-fg">~/rabhare6it/data-science-exercise/.venv/lib/python3.6/site-packages/sklearn/model_selection/_validation.py</span> in <span class="ansi-cyan-fg">_fit_and_score</span><span class="ansi-blue-fg">(estimator, X, y, scorer, train, test, verbose, parameters, fit_params, return_train_score, return_parameters, return_n_test_samples, return_times, return_estimator, error_score)</span>
+<span class="ansi-green-intense-fg ansi-bold">    529</span>             estimator<span class="ansi-blue-fg">.</span>fit<span class="ansi-blue-fg">(</span>X_train<span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">**</span>fit_params<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    530</span>         <span class="ansi-green-fg">else</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-fg">--&gt; 531</span><span class="ansi-red-fg">             </span>estimator<span class="ansi-blue-fg">.</span>fit<span class="ansi-blue-fg">(</span>X_train<span class="ansi-blue-fg">,</span> y_train<span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">**</span>fit_params<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    532</span> 
+<span class="ansi-green-intense-fg ansi-bold">    533</span>     <span class="ansi-green-fg">except</span> Exception <span class="ansi-green-fg">as</span> e<span class="ansi-blue-fg">:</span>
+
+<span class="ansi-green-fg">~/rabhare6it/data-science-exercise/.venv/lib/python3.6/site-packages/sklearn/svm/_classes.py</span> in <span class="ansi-cyan-fg">fit</span><span class="ansi-blue-fg">(self, X, y, sample_weight)</span>
+<span class="ansi-green-intense-fg ansi-bold">    235</span>             self<span class="ansi-blue-fg">.</span>class_weight<span class="ansi-blue-fg">,</span> self<span class="ansi-blue-fg">.</span>penalty<span class="ansi-blue-fg">,</span> self<span class="ansi-blue-fg">.</span>dual<span class="ansi-blue-fg">,</span> self<span class="ansi-blue-fg">.</span>verbose<span class="ansi-blue-fg">,</span>
+<span class="ansi-green-intense-fg ansi-bold">    236</span>             self<span class="ansi-blue-fg">.</span>max_iter<span class="ansi-blue-fg">,</span> self<span class="ansi-blue-fg">.</span>tol<span class="ansi-blue-fg">,</span> self<span class="ansi-blue-fg">.</span>random_state<span class="ansi-blue-fg">,</span> self<span class="ansi-blue-fg">.</span>multi_class<span class="ansi-blue-fg">,</span>
+<span class="ansi-green-fg">--&gt; 237</span><span class="ansi-red-fg">             self.loss, sample_weight=sample_weight)
+</span><span class="ansi-green-intense-fg ansi-bold">    238</span> 
+<span class="ansi-green-intense-fg ansi-bold">    239</span>         <span class="ansi-green-fg">if</span> self<span class="ansi-blue-fg">.</span>multi_class <span class="ansi-blue-fg">==</span> <span class="ansi-blue-fg">&#34;crammer_singer&#34;</span> <span class="ansi-green-fg">and</span> len<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">.</span>classes_<span class="ansi-blue-fg">)</span> <span class="ansi-blue-fg">==</span> <span class="ansi-cyan-fg">2</span><span class="ansi-blue-fg">:</span>
+
+<span class="ansi-green-fg">~/rabhare6it/data-science-exercise/.venv/lib/python3.6/site-packages/sklearn/svm/_base.py</span> in <span class="ansi-cyan-fg">_fit_liblinear</span><span class="ansi-blue-fg">(X, y, C, fit_intercept, intercept_scaling, class_weight, penalty, dual, verbose, max_iter, tol, random_state, multi_class, loss, epsilon, sample_weight)</span>
+<span class="ansi-green-intense-fg ansi-bold">    967</span>         X<span class="ansi-blue-fg">,</span> y_ind<span class="ansi-blue-fg">,</span> sp<span class="ansi-blue-fg">.</span>isspmatrix<span class="ansi-blue-fg">(</span>X<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">,</span> solver_type<span class="ansi-blue-fg">,</span> tol<span class="ansi-blue-fg">,</span> bias<span class="ansi-blue-fg">,</span> C<span class="ansi-blue-fg">,</span>
+<span class="ansi-green-intense-fg ansi-bold">    968</span>         class_weight_<span class="ansi-blue-fg">,</span> max_iter<span class="ansi-blue-fg">,</span> rnd<span class="ansi-blue-fg">.</span>randint<span class="ansi-blue-fg">(</span>np<span class="ansi-blue-fg">.</span>iinfo<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#39;i&#39;</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">.</span>max<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">,</span>
+<span class="ansi-green-fg">--&gt; 969</span><span class="ansi-red-fg">         epsilon, sample_weight)
+</span><span class="ansi-green-intense-fg ansi-bold">    970</span>     <span class="ansi-red-fg"># Regarding rnd.randint(..) in the above signature:</span>
+<span class="ansi-green-intense-fg ansi-bold">    971</span>     <span class="ansi-red-fg"># seed for srand in range [0..INT_MAX); due to limitations in Numpy</span>
+
+<span class="ansi-red-fg">KeyboardInterrupt</span>: </pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">show_result</span><span class="p">(</span><span class="n">DecisionTreeClassifier</span><span class="p">())</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">show_result</span><span class="p">(</span><span class="n">KNeighborsClassifier</span><span class="p">())</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">show_result</span><span class="p">(</span><span class="n">RandomForestClassifier</span><span class="p">())</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
 </div>
     </div>
   </div>
