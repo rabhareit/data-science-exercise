@@ -139,6 +139,20 @@ numpy = ">=1.14.5"
 
 [[package]]
 category = "main"
+description = "seaborn: statistical data visualization"
+name = "seaborn"
+optional = false
+python-versions = ">=3.6"
+version = "0.11.0"
+
+[package.dependencies]
+matplotlib = ">=2.2"
+numpy = ">=1.15"
+pandas = ">=0.23"
+scipy = ">=1.0"
+
+[[package]]
+category = "main"
 description = "Python 2 and 3 compatibility utilities"
 name = "six"
 optional = false
@@ -154,7 +168,7 @@ python-versions = ">=3.5"
 version = "2.1.0"
 
 [metadata]
-content-hash = "d1aa9276e5524003907c74e8f2b432ba60d050e0c5d3afc903e4542a592c83fc"
+content-hash = "ca1d0fdf2129a5aecd65a6fabb72d5fee93ddbd840cda20f3aa08a58666b450a"
 lock-version = "1.0"
 python-versions = "3.6.7"
 
@@ -344,6 +358,10 @@ scipy = [
     {file = "scipy-1.5.2-cp38-cp38-win32.whl", hash = "sha256:dac09281a0eacd59974e24525a3bc90fa39b4e95177e638a31b14db60d3fa806"},
     {file = "scipy-1.5.2-cp38-cp38-win_amd64.whl", hash = "sha256:92eb04041d371fea828858e4fff182453c25ae3eaa8782d9b6c32b25857d23bc"},
     {file = "scipy-1.5.2.tar.gz", hash = "sha256:066c513d90eb3fd7567a9e150828d39111ebd88d3e924cdfc9f8ce19ab6f90c9"},
+]
+seaborn = [
+    {file = "seaborn-0.11.0-py3-none-any.whl", hash = "sha256:62439a38482decdb263a8339f54ecb9823995ad8716abc830e91ca0753201e70"},
+    {file = "seaborn-0.11.0.tar.gz", hash = "sha256:390f8437b14f5ce845062f2865ad51656464c306d09bb97d7764c6cba1dd607c"},
 ]
 six = [
     {file = "six-1.15.0-py2.py3-none-any.whl", hash = "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"},
