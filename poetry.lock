@@ -19,6 +19,24 @@ six = "*"
 
 [[package]]
 category = "main"
+description = "Toolbox for imbalanced dataset in machine learning."
+name = "imbalanced-learn"
+optional = false
+python-versions = "*"
+version = "0.7.0"
+
+[package.dependencies]
+joblib = ">=0.11"
+numpy = ">=1.13.3"
+scikit-learn = ">=0.23"
+scipy = ">=0.19.1"
+
+[package.extras]
+docs = ["sphinx", "sphinx-gallery", "sphinx-rtd-theme", "sphinxcontrib-bibtex", "numpydoc", "matplotlib", "pandas"]
+tests = ["pytest", "pytest-cov"]
+
+[[package]]
+category = "main"
 description = "Lightweight pipelining: using Python functions as pipeline jobs."
 name = "joblib"
 optional = false
@@ -168,7 +186,7 @@ python-versions = ">=3.5"
 version = "2.1.0"
 
 [metadata]
-content-hash = "ca1d0fdf2129a5aecd65a6fabb72d5fee93ddbd840cda20f3aa08a58666b450a"
+content-hash = "b5628670578bf7e28155c2bcc4972736ec255da25ed4b562c73cee9caf2b0839"
 lock-version = "1.0"
 python-versions = "3.6.7"
 
@@ -180,6 +198,10 @@ certifi = [
 cycler = [
     {file = "cycler-0.10.0-py2.py3-none-any.whl", hash = "sha256:1d8a5ae1ff6c5cf9b93e8811e581232ad8920aeec647c37316ceac982b08cb2d"},
     {file = "cycler-0.10.0.tar.gz", hash = "sha256:cd7b2d1018258d7247a71425e9f26463dfb444d411c39569972f4ce586b0c9d8"},
+]
+imbalanced-learn = [
+    {file = "imbalanced-learn-0.7.0.tar.gz", hash = "sha256:da59de0d1c0fa66f62054dd9a0a295a182563aa1abbb3bf9224a3678fcfe8fa4"},
+    {file = "imbalanced_learn-0.7.0-py3-none-any.whl", hash = "sha256:487b3fbbf93db046db93e3164c9a038b98abcbf588f1baad8816b2815a1ee5e9"},
 ]
 joblib = [
     {file = "joblib-0.16.0-py3-none-any.whl", hash = "sha256:d348c5d4ae31496b2aa060d6d9b787864dd204f9480baaa52d18850cb43e9f49"},
